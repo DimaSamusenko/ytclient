@@ -14,34 +14,27 @@
 <body ng-app="ytclientApp">
 
 <!-- Add your site or application content here -->
-<section class="container">
-    <div class="navbar">
-        <div class="navbar-inner clearfix">
-            <a class="brand" href="#">YT-Client</a>
 
-            <form class="navbar-search pull-left">
-                <input type="text" class="input-xxlarge search-query" placeholder="Search">
-            </form>
-        </div>
-    </div>
-</section>
 <section class="container">
     <section class="row-fluid">
 
         <!-- navigation -->
-        <aside class="span2">
-            <ul class="nav nav-list">
-                <li class="active"><a href="#">Most Viewed</a></li>
-                <li><a href="#">Most Commented</a></li>
-                <li><a href="#">Most Rated</a></li>
-                <li class="nav-header">My subscriptions</li>
-                <li><a href="#">Channel 1</a></li>
-                <li><a href="#">Channel 2</a></li>
-            </ul>
+        <aside class="span3">
+
+            <div class="logo-wr">
+                <h3><a href="#">YT-Client</a></h3>
+            </div>
+
+            <nav ng-controller="NavigationCtrl">
+                <ul class="nav nav-pills nav-stacked">
+                    <li ng-repeat="item in navItems"><a href="#">{{item.snippet.title}}</a></li>
+                </ul>
+            </nav>
+
         </aside>
 
         <!-- content -->
-        <article class="span10">
+        <article class="span9">
             <section class="content container" ng-view></section>
         </article>
 
@@ -57,6 +50,7 @@
 <script src="scripts/app.js"></script>
 <script src="scripts/controllers/main.js"></script>
 <script src="scripts/services/search.js"></script>
+<script src="scripts/controllers/navigation.js"></script>
 <!-- endbuild -->
 
 

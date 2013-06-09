@@ -1,13 +1,18 @@
 @import "compass_twitter_bootstrap_awesome";
 @import "compass_twitter_bootstrap_responsive";
 
-/* Videos grid */
 
-.video-grid-item h5 {
-  height: 40px;
-  overflow: hidden;
+.logo-wr {
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
 }
 
-.row-fluid .video-grid-item:nth-child(4n+1) {
-    margin-left: 0 !important;
- }
+.logo-wr h3 {
+  margin: 0;
+  display: inline-block;
+  line-height: 1 !important;
+  vertical-align: middle;
+}
+
+

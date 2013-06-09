@@ -27,11 +27,22 @@ angular.module('ytclientApp').factory('search', function ($resource) {
                 },
                 callback
             );
+        },
+        getNav = function (callback) {
+            return ytApi.get(
+                {
+                    action: 'videoCategories',
+                    regionCode: 'US',
+                    part: 'id,snippet'
+                },
+                callback
+            );
         };
 
     // Public API here
     return {
         getSearch: getSearch,
-        getPopular: getPopular
+        getPopular: getPopular,
+        getNav: getNav
     };
 });

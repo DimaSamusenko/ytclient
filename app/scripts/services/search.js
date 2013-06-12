@@ -29,24 +29,28 @@ angular.module('ytclientApp').factory('search', function ($resource) {
 
         getNav = function (callback) {
             return ytApi.get({
-                    action    : 'guideCategories',
+                    action    : 'videoCategories',
                     regionCode: 'US',
                     part      : 'id,snippet'
                 }, callback);
         },
 
-        getCatItems = function (categoryId, callback) {
+        getItemsByCatId = function (categoryId, callback) {
             return ytApi.get({
                     maxResults     : 50,
-                    order          : 'date',
+                    order          : 'viewCount',
                     regionCode     : 'US',
                     type           : 'video',
-                    videoCategoryId: categoryId,
-                    channelId: 'UCBR8-60-B28hp2BmDPdntcQ',
+                    videoCategoryId: parseInt(categoryId, 10),
+                    publishedAfter: (function() {
+                        var now = new Date(),
+                            weekAgo = now.setDate(now.getDate()-7);
+                        return new Date(weekAgo).toISOString();
+                    }()),
                     videoDimension : '2d'
                 }, callback);
         },
-        getChannelsByCat = function (categoryId, callback) {
+        getChannelsByCatId = function (categoryId, callback) {
             return ytApi.get({
                     action    : 'channels',
                     regionCode: 'US',
@@ -61,7 +65,7 @@ angular.module('ytclientApp').factory('search', function ($resource) {
         getSearch: getSearch,
         getPopular: getPopular,
         getNav: getNav,
-        getCatItems: getCatItems,
-        getChannelsByCat: getChannelsByCat
+        getItemsByCatId: getItemsByCatId,
+        getChannelsByCatId: getChannelsByCatId
     };
 });

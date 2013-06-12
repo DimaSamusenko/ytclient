@@ -5,7 +5,7 @@
     </a>
 
     <div class="media-body">
-        <h4 class="media-heading">{{item.snippet.title}}</h4>
+        <h4 class="media-heading"><a href="#/video/{{item.id.videoId}}">{{item.snippet.title}}</a></h4>
         <p>{{item.snippet.description}}</p>
         <p class="muted"><small><a href="#/channel/{{item.snippet.channelId}}" class="muted">{{item.snippet.channelTitle}}</a> @ {{item.snippet.publishedAt | date:'short'}}</small></p>
     </div>

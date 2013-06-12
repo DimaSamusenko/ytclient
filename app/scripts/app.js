@@ -11,6 +11,10 @@ angular.module('ytclientApp', ['ngResource']).config(function ($routeProvider) {
             controller : 'CategoryCtrl'
 
         })
+        .when('/video/:videoId', {
+          templateUrl: 'views/video.html',
+          controller: 'VideoCtrl'
+        })
         .otherwise({
             redirectTo: '/'
         });

@@ -58,6 +58,14 @@ angular.module('ytclientApp').factory('search', function ($resource) {
                     categoryId: categoryId,
                     maxResults: 50
                 }, callback);
+        },
+        getItemById = function (videoId, callback) {
+            return ytApi.get({
+                    action    : 'videos',
+                    part      : 'id, snippet, contentDetails,player,recordingDetails,statistics',
+                    id: videoId,
+                    maxResults: 50
+                }, callback);
         };
 
     // Public API here
@@ -66,6 +74,7 @@ angular.module('ytclientApp').factory('search', function ($resource) {
         getPopular: getPopular,
         getNav: getNav,
         getItemsByCatId: getItemsByCatId,
-        getChannelsByCatId: getChannelsByCatId
+        getChannelsByCatId: getChannelsByCatId,
+        getItemById: getItemById
     };
 });

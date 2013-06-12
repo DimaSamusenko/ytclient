@@ -1,1 +1,8 @@
-<p>This is the video view.</p>
+<div data-ng-bind-html-unsafe="video.player.embedHtml"></div>
+
+<h1>{{video.snippet.title}}</h1>
+
+        <p class="muted"><a href="#/channel/{{video.snippet.channelId}}">{{video.snippet.channelTitle}}</a> @ {{video.snippet.publishedAt | date:"short"}}</p>
+        <p><span class="label label-success">{{video.statistics.likeCount}}</span> <span class="label label-warning">{{video.statistics.dislikeCount}}</span></p>
+
+        <p>{{video.snippet.description}}</p>

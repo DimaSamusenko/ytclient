@@ -7,6 +7,6 @@
     <div class="media-body">
         <h4 class="media-heading">{{item.snippet.title}}</h4>
         <p>{{item.snippet.description}}</p>
-        <p><small>{{item.snippet.channelTitle}}</small></p>
+        <p class="muted"><small><a href="#/channel/{{item.snippet.channelId}}" class="muted">{{item.snippet.channelTitle}}</a> @ {{item.snippet.publishedAt | date:'short'}}</small></p>
     </div>
 </div>

@@ -3,7 +3,7 @@
 <h1>{{video.snippet.title}}</h1>
 
 <p class="muted"><a href="#/channel/{{video.snippet.channelId}}">{{video.snippet.channelTitle}}</a> @
-    {{video.snippet.publishedAt | date:"short"}}</p>
+    {{video.snippet.publishedAt | date:"short"}} | view count: {{video.statistics.viewCount}} | comments: {{video.statistics.commentCount}}</p>
 <p><span class="label label-success">{{video.statistics.likeCount}}</span> <span class="label label-warning">{{video.statistics.dislikeCount}}</span>
 </p>
 

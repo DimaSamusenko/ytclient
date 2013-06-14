@@ -37,35 +37,34 @@ angular.module('ytclientApp').factory('search', function ($resource) {
 
         getItemsByCatId = function (categoryId, callback) {
             return ytApi.get({
-                    maxResults     : 50,
-                    order          : 'viewCount',
-                    regionCode     : 'US',
-                    type           : 'video',
-                    videoCategoryId: parseInt(categoryId, 10),
-                    publishedAfter: (function() {
-                        var now = new Date(),
-                            weekAgo = now.setDate(now.getDate()-7);
-                        return new Date(weekAgo).toISOString();
-                    }()),
-                    videoDimension : '2d'
-                }, callback);
+                maxResults     : 50,
+                order          : 'viewCount',
+                regionCode     : 'US',
+                type           : 'video',
+                videoCategoryId: parseInt(categoryId, 10),
+                publishedAfter : (function () {
+                    var now = new Date(),
+                        weekAgo = now.setDate(now.getDate() - 7);
+                    return new Date(weekAgo).toISOString();
+                }()),
+                videoDimension : '2d'
+            }, callback);
         },
-        getChannelsByCatId = function (categoryId, callback) {
+        getChannelById = function (channelId, callback) {
             return ytApi.get({
-                    action    : 'channels',
-                    regionCode: 'US',
-                    part      : 'id, snippet, contentDetails, invideoPromotion, topicDetails',
-                    categoryId: categoryId,
-                    maxResults: 50
-                }, callback);
+                action    : 'channels',
+                part      : 'id, snippet, contentDetails, statistics',
+                id        : channelId,
+                maxResults: 1
+            }, callback);
         },
         getItemById = function (videoId, callback) {
             return ytApi.get({
-                    action    : 'videos',
-                    part      : 'id, snippet, contentDetails,player,recordingDetails,statistics',
-                    id: videoId,
-                    maxResults: 50
-                }, callback);
+                action    : 'videos',
+                part      : 'id, snippet, contentDetails, player,recordingDetails,statistics',
+                id        : videoId,
+                maxResults: 1
+            }, callback);
         };
 
     // Public API here
@@ -74,7 +73,7 @@ angular.module('ytclientApp').factory('search', function ($resource) {
         getPopular: getPopular,
         getNav: getNav,
         getItemsByCatId: getItemsByCatId,
-        getChannelsByCatId: getChannelsByCatId,
+        getChannelById: getChannelById,
         getItemById: getItemById
     };
 });

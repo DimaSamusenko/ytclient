@@ -8,13 +8,15 @@
     <file path="/app.js" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1371044000694" ignored="false" />
     <file path="/index.html" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1371057515463" ignored="false" />
     <file path="/main.js" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1370957610676" ignored="false" />
-    <file path="/search.js" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1371043298289" ignored="false" />
+    <file path="/search.js" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1371171304690" ignored="false" />
     <file path="/main.html" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1371057869444" ignored="false" />
     <file path="/navigation.js" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1371040973585" ignored="false" />
     <file path="/category.js" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1371043528333" ignored="false" />
     <file path="/category.html" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1371041741254" ignored="false" />
-    <file path="/video.js" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1371044340395" ignored="false" />
-    <file path="/video.html" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1371058383452" ignored="false" />
+    <file path="/video.js" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1371059742947" ignored="false" />
+    <file path="/video.html" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1371059154754" ignored="false" />
+    <file path="/channel.js" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1371174839407" ignored="false" />
+    <file path="/channel.html" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1371175754759" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,16 +38,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="45" selection-start="1156" selection-end="1156" vertical-scroll-proportion="-13.62963">
+            <state line="39" column="0" selection-start="1202" selection-end="1202" vertical-scroll-proportion="-0.6666667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="video.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="113" selection-start="312" selection-end="312" vertical-scroll-proportion="0.12676056">
+            <state line="5" column="183" selection-start="382" selection-end="382" vertical-scroll-proportion="-3.3333333">
               <folding />
             </state>
           </provider>
@@ -54,25 +56,16 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="18" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
+            <state line="17" column="34" selection-start="511" selection-end="520" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/controllers/video.js">
+      <file leaf-file-name="channel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/controllers/channel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="81" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/controllers/category.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="11" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+            <state line="4" column="22" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -81,7 +74,16 @@
       <file leaf-file-name="search.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/services/search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="32" selection-start="2752" selection-end="2752" vertical-scroll-proportion="0.0">
+            <state line="55" column="40" selection-start="1908" selection-end="1908" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="channel.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/channel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="146" selection-start="285" selection-end="285" vertical-scroll-proportion="0.07605634">
               <folding />
             </state>
           </provider>
@@ -103,13 +105,15 @@
         <option value="$PROJECT_DIR$/scripts/controllers/main.js" />
         <option value="$PROJECT_DIR$/scripts/controllers/navigation.js" />
         <option value="$PROJECT_DIR$/views/category.html" />
-        <option value="$PROJECT_DIR$/scripts/services/search.js" />
         <option value="$PROJECT_DIR$/scripts/controllers/category.js" />
-        <option value="$PROJECT_DIR$/scripts/app.js" />
-        <option value="$PROJECT_DIR$/scripts/controllers/video.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/views/main.html" />
         <option value="$PROJECT_DIR$/views/video.html" />
+        <option value="$PROJECT_DIR$/scripts/controllers/video.js" />
+        <option value="$PROJECT_DIR$/scripts/app.js" />
+        <option value="$PROJECT_DIR$/scripts/services/search.js" />
+        <option value="$PROJECT_DIR$/scripts/controllers/channel.js" />
+        <option value="$PROJECT_DIR$/views/channel.html" />
       </list>
     </option>
   </component>
@@ -190,24 +194,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -421,16 +407,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/compass_twitter_bootstrap/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="40" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/compass_twitter_bootstrap/_media.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="1" selection-start="266" selection-end="266" vertical-scroll-proportion="0.34192672" />
@@ -451,34 +427,6 @@
         <state line="5" column="47" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/services/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="32" selection-start="2752" selection-end="2752" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/controllers/category.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="11" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/controllers/video.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="81" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/_compass_twitter_bootstrap_awesome.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="28" selection-start="481" selection-end="481" vertical-scroll-proportion="0.023066485" />
@@ -491,28 +439,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/category.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="43" selection-start="270" selection-end="297" vertical-scroll-proportion="0.17746478">
-          <folding />
-        </state>
+        <state line="7" column="43" selection-start="270" selection-end="297" vertical-scroll-proportion="0.17746478" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="204" selection-end="204" vertical-scroll-proportion="0.12676056">
-          <folding />
-        </state>
+        <state line="5" column="8" selection-start="204" selection-end="204" vertical-scroll-proportion="0.12676056" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="45" selection-start="1156" selection-end="1156" vertical-scroll-proportion="-13.62963">
+        <state line="39" column="0" selection-start="1202" selection-end="1202" vertical-scroll-proportion="-0.6666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/controllers/category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="11" selection-start="258" selection-end="258" vertical-scroll-proportion="0.14654003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/controllers/video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="364" selection-end="364" vertical-scroll-proportion="0.19538671">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="34" selection-start="511" selection-end="520" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="113" selection-start="312" selection-end="312" vertical-scroll-proportion="0.12676056">
+        <state line="5" column="183" selection-start="382" selection-end="382" vertical-scroll-proportion="-3.3333333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/services/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="40" selection-start="1908" selection-end="1908" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/controllers/channel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="22" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/channel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="146" selection-start="285" selection-end="285" vertical-scroll-proportion="0.07605634">
           <folding />
         </state>
       </provider>

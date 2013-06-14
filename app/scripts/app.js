@@ -15,6 +15,10 @@ angular.module('ytclientApp', ['ngResource']).config(function ($routeProvider) {
           templateUrl: 'views/video.html',
           controller: 'VideoCtrl'
         })
+        .when('/channel/:channelId', {
+          templateUrl: 'views/channel.html',
+          controller: 'ChannelCtrl'
+        })
         .otherwise({
             redirectTo: '/'
         });

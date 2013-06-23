@@ -1,11 +1,12 @@
-<h1>Popular </h1>
+<div class="media-wrapper">
+    <div class="media-cell" ng-repeat="item in mainResults.items">
+        <a href="#/video/{{item.contentDetails.videoId}}">
+            <img class="media-object" ng-src="{{item.snippet.thumbnails.high.url}}">
+        </a>
 
-<div class="media" ng-repeat="item in mainResults.items">
-    <a class="pull-left" href="#">
-        <img class="media-object" ng-src="{{item.snippet.thumbnails.default.url}}">
-    </a>
-
-    <div class="media-body">
-        <h4 class="media-heading"><a href="#/video/{{item.contentDetails.videoId}}">{{item.snippet.title}}</a></h4>
+        <div style="display: none" class="media-body">
+            <h4 class="media-heading"><a href="#/video/{{item.contentDetails.videoId}}">{{item.snippet.title}}</a></h4>
+        </div>
     </div>
 </div>
+

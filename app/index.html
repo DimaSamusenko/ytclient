@@ -15,36 +15,33 @@
 
 <!-- Add your site or application content here -->
 
-<section class="container">
-    <section class="row">
+<section class="layout">
+    <aside class="layout-aside">
+        <div class="logo-wr">
+            <a href="#" class="logo"></a>
+        </div>
 
-        <!-- navigation -->
-        <aside class="span3">
+        <nav ng-controller="NavigationCtrl">
+            <ul class="nav nav-pills nav-stacked">
+                <li ng-repeat="item in navItems"><a href="#/category/{{item.id}}">{{item.snippet.title}}</a></li>
+            </ul>
+        </nav>
 
-            <div class="logo-wr">
-                <h3><a href="#">YT-Client</a></h3>
-            </div>
+    </aside>
+    <article class="layout-content">
 
-            <nav ng-controller="NavigationCtrl">
-                <ul class="nav nav-pills nav-stacked">
-                    <li ng-repeat="item in navItems"><a href="#/category/{{item.id}}">{{item.snippet.title}}</a></li>
-                </ul>
-            </nav>
+        <section class="content" ng-view></section>
 
-        </aside>
-
-        <!-- content -->
-        <article class="span9">
-            <section class="content container-fluid" ng-view></section>
-        </article>
-
-    </section>
+    </article>
 </section>
+
+
 
 <script src="components/angular/angular.js"></script>
 <script src="components/angular-resource/angular-resource.js"></script>
 <script src="components/angular-cookies/angular-cookies.js"></script>
 <script src="components/angular-sanitize/angular-sanitize.js"></script>
+<script src="components/angular-bootstrap/ui-bootstrap.min.js"></script>
 
 <!-- build:js scripts/scripts.js -->
 <script src="scripts/app.js"></script>

@@ -1,11 +1,13 @@
 'use strict';
 
-angular.module('ytclientApp').factory('search', function ($resource) {
+angular.module('ytclientApp').factory('search', function ($resource, $http) {
 
-    var ytApi = $resource('https://www.googleapis.com/youtube/v3/:action',
+    var key = 'AIzaSyCpOdAM-uUOZnv2-RbhkpQLGNUhEpAt4qE',
+
+        ytApi = $resource('https://www.googleapis.com/youtube/v3/:action',
             {
                 action: 'search',
-                key: 'AIzaSyCpOdAM-uUOZnv2-RbhkpQLGNUhEpAt4qE',
+                key: key,
                 part: 'id,snippet',
                 callback: 'JSON_CALLBACK'
             },
@@ -13,6 +15,14 @@ angular.module('ytclientApp').factory('search', function ($resource) {
                 get: {method: 'JSONP'}
             }
         ),
+
+        getSearchWithHttp = function (query) {
+            return $http
+                .jsonp('https://www.googleapis.com/youtube/v3/search?key='+key+'&part=snippet&q='+query)
+                .then(function(response) {
+                return response;
+            });
+        },
 
         getSearch = function (params, callback) {
             return ytApi.get(params, callback);
@@ -74,6 +84,7 @@ angular.module('ytclientApp').factory('search', function ($resource) {
         getNav: getNav,
         getItemsByCatId: getItemsByCatId,
         getChannelById: getChannelById,
-        getItemById: getItemById
+        getItemById: getItemById,
+        getSearchWithHttp: getSearchWithHttp
     };
 });

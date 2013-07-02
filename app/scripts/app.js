@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('ytclientApp', ['ngResource']).config(function ($routeProvider) {
+angular.module('ytclientApp', ['ngResource', 'ui.bootstrap']).config(function ($routeProvider) {
     $routeProvider
         .when('/', {
             templateUrl: 'views/main.html',

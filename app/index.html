@@ -34,7 +34,7 @@
             <div class="span12">
                 <form class="form-search" ng-controller="SearchCtrl">
 
-                    <input type="text" class="input-xlarge search-query" placeholder="Search" ng-model="searchTerm" typeahead="suggestion for suggestion in searchResults($viewValue)">
+                    <input type="text" class="input-xlarge search-query" placeholder="Search" ng-model="searchTerm" typeahead="suggestion.snippet.title for suggestion in searchResults($viewValue)">
 
                 </form>
             </div>

@@ -1,0 +1,1506 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'update', '-g', 'yo' ]
+2 info using npm@1.2.23
+3 info using node@v0.10.8
+4 verbose read json /usr/local/lib/package.json
+5 verbose read json /usr/local/lib/node_modules/bower/package.json
+6 verbose read json /usr/local/lib/node_modules/generator-angular/package.json
+7 verbose read json /usr/local/lib/node_modules/generator-h5bp/package.json
+8 verbose read json /usr/local/lib/node_modules/generator-init/package.json
+9 verbose read json /usr/local/lib/node_modules/generator-karma/package.json
+10 verbose read json /usr/local/lib/node_modules/generator-mocha/package.json
+11 verbose read json /usr/local/lib/node_modules/generator-webapp/package.json
+12 verbose read json /usr/local/lib/node_modules/grunt-cli/package.json
+13 verbose read json /usr/local/lib/node_modules/npm/package.json
+14 verbose read json /usr/local/lib/node_modules/yo/package.json
+15 verbose from cache /usr/local/lib/node_modules/generator-angular/package.json
+16 verbose from cache /usr/local/lib/node_modules/generator-h5bp/package.json
+17 verbose from cache /usr/local/lib/node_modules/generator-init/package.json
+18 verbose from cache /usr/local/lib/node_modules/generator-mocha/package.json
+19 verbose from cache /usr/local/lib/node_modules/grunt-cli/package.json
+20 verbose cache add [ 'yo', '*' ]
+21 verbose cache add name="yo" spec="*" args=["yo","*"]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '*',
+22 verbose parsed url   path: '*',
+22 verbose parsed url   href: '*' }
+23 verbose addNamed [ 'yo', '*' ]
+24 verbose addNamed [ null, '' ]
+25 verbose from cache /usr/local/lib/node_modules/generator-karma/package.json
+26 verbose from cache /usr/local/lib/node_modules/bower/package.json
+27 verbose from cache /usr/local/lib/node_modules/generator-webapp/package.json
+28 verbose from cache /usr/local/lib/node_modules/npm/package.json
+29 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/package.json
+30 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/package.json
+31 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/github/package.json
+32 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/package.json
+33 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/package.json
+34 verbose read json /usr/local/lib/node_modules/grunt-cli/node_modules/findup-sync/package.json
+35 verbose read json /usr/local/lib/node_modules/grunt-cli/node_modules/nopt/package.json
+36 verbose read json /usr/local/lib/node_modules/grunt-cli/node_modules/resolve/package.json
+37 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/colors/package.json
+38 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/semver/package.json
+39 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/package.json
+40 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/package.json
+41 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/package.json
+42 verbose read json /usr/local/lib/node_modules/npm/node_modules/abbrev/package.json
+43 verbose read json /usr/local/lib/node_modules/npm/node_modules/ansi/package.json
+44 verbose read json /usr/local/lib/node_modules/npm/node_modules/archy/package.json
+45 verbose read json /usr/local/lib/node_modules/npm/node_modules/block-stream/package.json
+46 verbose read json /usr/local/lib/node_modules/npm/node_modules/child-process-close/package.json
+47 verbose read json /usr/local/lib/node_modules/npm/node_modules/chmodr/package.json
+48 verbose read json /usr/local/lib/node_modules/npm/node_modules/chownr/package.json
+49 verbose read json /usr/local/lib/node_modules/npm/node_modules/cmd-shim/package.json
+50 verbose read json /usr/local/lib/node_modules/npm/node_modules/editor/package.json
+51 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream/package.json
+52 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream-npm/package.json
+53 verbose read json /usr/local/lib/node_modules/npm/node_modules/glob/package.json
+54 verbose read json /usr/local/lib/node_modules/npm/node_modules/graceful-fs/package.json
+55 verbose read json /usr/local/lib/node_modules/npm/node_modules/inherits/package.json
+56 verbose read json /usr/local/lib/node_modules/npm/node_modules/ini/package.json
+57 verbose read json /usr/local/lib/node_modules/npm/node_modules/init-package-json/package.json
+58 verbose read json /usr/local/lib/node_modules/npm/node_modules/lockfile/package.json
+59 verbose read json /usr/local/lib/node_modules/npm/node_modules/lru-cache/package.json
+60 verbose read json /usr/local/lib/node_modules/npm/node_modules/minimatch/package.json
+61 verbose read json /usr/local/lib/node_modules/npm/node_modules/mkdirp/package.json
+62 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/package.json
+63 verbose read json /usr/local/lib/node_modules/npm/node_modules/nopt/package.json
+64 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/package.json
+65 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-user-validate/package.json
+66 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/package.json
+67 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmlog/package.json
+68 verbose read json /usr/local/lib/node_modules/npm/node_modules/once/package.json
+69 verbose read json /usr/local/lib/node_modules/npm/node_modules/opener/package.json
+70 verbose read json /usr/local/lib/node_modules/npm/node_modules/osenv/package.json
+71 verbose read json /usr/local/lib/node_modules/npm/node_modules/read/package.json
+72 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-installed/package.json
+73 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/package.json
+74 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/package.json
+75 verbose read json /usr/local/lib/node_modules/npm/node_modules/retry/package.json
+76 verbose read json /usr/local/lib/node_modules/npm/node_modules/rimraf/package.json
+77 verbose read json /usr/local/lib/node_modules/npm/node_modules/semver/package.json
+78 verbose read json /usr/local/lib/node_modules/npm/node_modules/sha/package.json
+79 verbose read json /usr/local/lib/node_modules/npm/node_modules/slide/package.json
+80 verbose read json /usr/local/lib/node_modules/npm/node_modules/tar/package.json
+81 verbose read json /usr/local/lib/node_modules/npm/node_modules/uid-number/package.json
+82 verbose read json /usr/local/lib/node_modules/npm/node_modules/which/package.json
+83 silly lockFile ec8b77ae-yo yo@*
+84 verbose lock yo@* /Users/Admin/.npm/ec8b77ae-yo.lock
+85 verbose read json /usr/local/lib/node_modules/bower/node_modules/abbrev/package.json
+86 verbose read json /usr/local/lib/node_modules/bower/node_modules/archy/package.json
+87 verbose read json /usr/local/lib/node_modules/bower/node_modules/async/package.json
+88 verbose read json /usr/local/lib/node_modules/bower/node_modules/colors/package.json
+89 verbose read json /usr/local/lib/node_modules/bower/node_modules/fstream/package.json
+90 verbose read json /usr/local/lib/node_modules/bower/node_modules/glob/package.json
+91 verbose read json /usr/local/lib/node_modules/bower/node_modules/hogan.js/package.json
+92 verbose read json /usr/local/lib/node_modules/bower/node_modules/lodash/package.json
+93 verbose read json /usr/local/lib/node_modules/bower/node_modules/mkdirp/package.json
+94 verbose read json /usr/local/lib/node_modules/bower/node_modules/nopt/package.json
+95 verbose read json /usr/local/lib/node_modules/bower/node_modules/promptly/package.json
+96 verbose read json /usr/local/lib/node_modules/bower/node_modules/rc/package.json
+97 verbose read json /usr/local/lib/node_modules/bower/node_modules/read-package-json/package.json
+98 verbose read json /usr/local/lib/node_modules/bower/node_modules/request/package.json
+99 verbose read json /usr/local/lib/node_modules/bower/node_modules/rimraf/package.json
+100 verbose read json /usr/local/lib/node_modules/bower/node_modules/semver/package.json
+101 verbose read json /usr/local/lib/node_modules/bower/node_modules/stable/package.json
+102 verbose read json /usr/local/lib/node_modules/bower/node_modules/tar/package.json
+103 verbose read json /usr/local/lib/node_modules/bower/node_modules/tmp/package.json
+104 verbose read json /usr/local/lib/node_modules/bower/node_modules/unzip/package.json
+105 verbose read json /usr/local/lib/node_modules/bower/node_modules/update-notifier/package.json
+106 silly addNameRange { name: 'yo', range: '', hasData: false }
+107 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/package.json
+108 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/github/package.json
+109 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/package.json
+110 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/package.json
+111 verbose from cache /usr/local/lib/node_modules/grunt-cli/node_modules/nopt/package.json
+112 verbose from cache /usr/local/lib/node_modules/grunt-cli/node_modules/findup-sync/package.json
+113 verbose from cache /usr/local/lib/node_modules/grunt-cli/node_modules/resolve/package.json
+114 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/package.json
+115 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/colors/package.json
+116 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/semver/package.json
+117 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/package.json
+118 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/package.json
+119 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/package.json
+120 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/package.json
+121 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cli-table/package.json
+122 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/debug/package.json
+123 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/diff/package.json
+124 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/glob/package.json
+125 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/isbinaryfile/package.json
+126 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/lodash/package.json
+127 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/mime/package.json
+128 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/mkdirp/package.json
+129 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/nopt/package.json
+130 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/read/package.json
+131 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/package.json
+132 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/rimraf/package.json
+133 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/tar/package.json
+134 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/underscore.string/package.json
+135 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/package.json
+136 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cli-table/package.json
+137 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/debug/package.json
+138 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/diff/package.json
+139 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/glob/package.json
+140 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/isbinaryfile/package.json
+141 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/lodash/package.json
+142 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/mime/package.json
+143 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/mkdirp/package.json
+144 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/nopt/package.json
+145 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/read/package.json
+146 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/package.json
+147 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/rimraf/package.json
+148 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/tar/package.json
+149 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/underscore.string/package.json
+150 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/package.json
+151 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cli-table/package.json
+152 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/debug/package.json
+153 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/diff/package.json
+154 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/glob/package.json
+155 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/isbinaryfile/package.json
+156 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/lodash/package.json
+157 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/mime/package.json
+158 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/mkdirp/package.json
+159 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/nopt/package.json
+160 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/read/package.json
+161 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/package.json
+162 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/rimraf/package.json
+163 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/tar/package.json
+164 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/underscore.string/package.json
+165 verbose read json /usr/local/lib/node_modules/grunt-cli/node_modules/nopt/node_modules/abbrev/package.json
+166 verbose read json /usr/local/lib/node_modules/grunt-cli/node_modules/findup-sync/node_modules/glob/package.json
+167 verbose read json /usr/local/lib/node_modules/grunt-cli/node_modules/findup-sync/node_modules/lodash/package.json
+168 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/package.json
+169 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cli-table/package.json
+170 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/debug/package.json
+171 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/diff/package.json
+172 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/glob/package.json
+173 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/isbinaryfile/package.json
+174 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/lodash/package.json
+175 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/mime/package.json
+176 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/mkdirp/package.json
+177 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/nopt/package.json
+178 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/read/package.json
+179 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/package.json
+180 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/rimraf/package.json
+181 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/tar/package.json
+182 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/underscore.string/package.json
+183 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/cli-table/package.json
+184 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/dargs/package.json
+185 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/debug/package.json
+186 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/diff/package.json
+187 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/glob/package.json
+188 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/isbinaryfile/package.json
+189 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/lodash/package.json
+190 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/mime/package.json
+191 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/mkdirp/package.json
+192 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/nopt/package.json
+193 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/package.json
+194 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/package.json
+195 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/revalidator/package.json
+196 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/rimraf/package.json
+197 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/tar/package.json
+198 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/underscore.string/package.json
+199 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/node_modules/cheerio-select/package.json
+200 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/node_modules/entities/package.json
+201 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/node_modules/htmlparser2/package.json
+202 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/node_modules/underscore/package.json
+203 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/package.json
+204 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cli-table/package.json
+205 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/debug/package.json
+206 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/diff/package.json
+207 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/glob/package.json
+208 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/isbinaryfile/package.json
+209 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/lodash/package.json
+210 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/mime/package.json
+211 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/mkdirp/package.json
+212 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/nopt/package.json
+213 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/read/package.json
+214 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/package.json
+215 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/rimraf/package.json
+216 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/tar/package.json
+217 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/underscore.string/package.json
+218 verbose from cache /usr/local/lib/node_modules/bower/node_modules/abbrev/package.json
+219 verbose from cache /usr/local/lib/node_modules/bower/node_modules/archy/package.json
+220 verbose from cache /usr/local/lib/node_modules/bower/node_modules/async/package.json
+221 verbose from cache /usr/local/lib/node_modules/bower/node_modules/colors/package.json
+222 verbose from cache /usr/local/lib/node_modules/bower/node_modules/fstream/package.json
+223 verbose from cache /usr/local/lib/node_modules/bower/node_modules/glob/package.json
+224 verbose from cache /usr/local/lib/node_modules/bower/node_modules/hogan.js/package.json
+225 verbose from cache /usr/local/lib/node_modules/bower/node_modules/lodash/package.json
+226 verbose from cache /usr/local/lib/node_modules/bower/node_modules/mkdirp/package.json
+227 verbose from cache /usr/local/lib/node_modules/bower/node_modules/nopt/package.json
+228 verbose from cache /usr/local/lib/node_modules/bower/node_modules/promptly/package.json
+229 verbose from cache /usr/local/lib/node_modules/bower/node_modules/rc/package.json
+230 verbose from cache /usr/local/lib/node_modules/bower/node_modules/read-package-json/package.json
+231 verbose from cache /usr/local/lib/node_modules/bower/node_modules/request/package.json
+232 verbose from cache /usr/local/lib/node_modules/bower/node_modules/rimraf/package.json
+233 verbose from cache /usr/local/lib/node_modules/bower/node_modules/semver/package.json
+234 verbose from cache /usr/local/lib/node_modules/bower/node_modules/stable/package.json
+235 verbose from cache /usr/local/lib/node_modules/bower/node_modules/tar/package.json
+236 verbose from cache /usr/local/lib/node_modules/bower/node_modules/tmp/package.json
+237 verbose from cache /usr/local/lib/node_modules/bower/node_modules/unzip/package.json
+238 verbose from cache /usr/local/lib/node_modules/bower/node_modules/update-notifier/package.json
+239 verbose url raw yo
+240 verbose url resolving [ 'https://registry.npmjs.org/', './yo' ]
+241 verbose url resolved https://registry.npmjs.org/yo
+242 info trying registry request attempt 1 at 23:39:04
+243 verbose etag "26LXC58D5IN9PH7C4NVBA1XXP"
+244 http GET https://registry.npmjs.org/yo
+245 verbose read json /usr/local/lib/node_modules/bower/node_modules/nopt/node_modules/abbrev/package.json
+246 verbose read json /usr/local/lib/node_modules/bower/node_modules/fstream/node_modules/graceful-fs/package.json
+247 verbose read json /usr/local/lib/node_modules/bower/node_modules/fstream/node_modules/inherits/package.json
+248 verbose read json /usr/local/lib/node_modules/bower/node_modules/promptly/node_modules/read/package.json
+249 verbose read json /usr/local/lib/node_modules/bower/node_modules/rc/node_modules/config-chain/package.json
+250 verbose read json /usr/local/lib/node_modules/bower/node_modules/rc/node_modules/optimist/package.json
+251 verbose read json /usr/local/lib/node_modules/bower/node_modules/glob/node_modules/graceful-fs/package.json
+252 verbose read json /usr/local/lib/node_modules/bower/node_modules/glob/node_modules/inherits/package.json
+253 verbose read json /usr/local/lib/node_modules/bower/node_modules/glob/node_modules/minimatch/package.json
+254 verbose read json /usr/local/lib/node_modules/bower/node_modules/read-package-json/node_modules/graceful-fs/package.json
+255 verbose read json /usr/local/lib/node_modules/bower/node_modules/read-package-json/node_modules/lru-cache/package.json
+256 verbose read json /usr/local/lib/node_modules/bower/node_modules/read-package-json/node_modules/npmlog/package.json
+257 verbose read json /usr/local/lib/node_modules/bower/node_modules/read-package-json/node_modules/slide/package.json
+258 verbose read json /usr/local/lib/node_modules/bower/node_modules/request/node_modules/form-data/package.json
+259 verbose read json /usr/local/lib/node_modules/bower/node_modules/request/node_modules/mime/package.json
+260 verbose read json /usr/local/lib/node_modules/bower/node_modules/rimraf/node_modules/graceful-fs/package.json
+261 verbose read json /usr/local/lib/node_modules/bower/node_modules/tar/node_modules/block-stream/package.json
+262 verbose read json /usr/local/lib/node_modules/bower/node_modules/tar/node_modules/inherits/package.json
+263 verbose read json /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/binary/package.json
+264 verbose read json /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/match-stream/package.json
+265 verbose read json /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/pullstream/package.json
+266 verbose read json /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/readable-stream/package.json
+267 verbose read json /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/setimmediate/package.json
+268 verbose read json /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/configstore/package.json
+269 verbose read json /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/request/package.json
+270 verbose from cache /usr/local/lib/node_modules/npm/node_modules/semver/package.json
+271 verbose from cache /usr/local/lib/node_modules/npm/node_modules/ini/package.json
+272 verbose from cache /usr/local/lib/node_modules/npm/node_modules/slide/package.json
+273 verbose from cache /usr/local/lib/node_modules/npm/node_modules/abbrev/package.json
+274 verbose from cache /usr/local/lib/node_modules/npm/node_modules/graceful-fs/package.json
+275 verbose from cache /usr/local/lib/node_modules/npm/node_modules/minimatch/package.json
+276 verbose from cache /usr/local/lib/node_modules/npm/node_modules/nopt/package.json
+277 verbose from cache /usr/local/lib/node_modules/npm/node_modules/rimraf/package.json
+278 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/package.json
+279 verbose from cache /usr/local/lib/node_modules/npm/node_modules/which/package.json
+280 verbose from cache /usr/local/lib/node_modules/npm/node_modules/tar/package.json
+281 verbose from cache /usr/local/lib/node_modules/npm/node_modules/fstream/package.json
+282 verbose from cache /usr/local/lib/node_modules/npm/node_modules/block-stream/package.json
+283 verbose from cache /usr/local/lib/node_modules/npm/node_modules/inherits/package.json
+284 verbose from cache /usr/local/lib/node_modules/npm/node_modules/mkdirp/package.json
+285 verbose from cache /usr/local/lib/node_modules/npm/node_modules/read/package.json
+286 verbose from cache /usr/local/lib/node_modules/npm/node_modules/lru-cache/package.json
+287 verbose from cache /usr/local/lib/node_modules/npm/node_modules/node-gyp/package.json
+288 verbose from cache /usr/local/lib/node_modules/npm/node_modules/fstream-npm/package.json
+289 verbose from cache /usr/local/lib/node_modules/npm/node_modules/uid-number/package.json
+290 verbose from cache /usr/local/lib/node_modules/npm/node_modules/archy/package.json
+291 verbose from cache /usr/local/lib/node_modules/npm/node_modules/chownr/package.json
+292 verbose from cache /usr/local/lib/node_modules/npm/node_modules/npmlog/package.json
+293 verbose from cache /usr/local/lib/node_modules/npm/node_modules/ansi/package.json
+294 verbose from cache /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/package.json
+295 verbose from cache /usr/local/lib/node_modules/npm/node_modules/read-package-json/package.json
+296 verbose from cache /usr/local/lib/node_modules/npm/node_modules/read-installed/package.json
+297 verbose from cache /usr/local/lib/node_modules/npm/node_modules/glob/package.json
+298 verbose from cache /usr/local/lib/node_modules/npm/node_modules/init-package-json/package.json
+299 verbose from cache /usr/local/lib/node_modules/npm/node_modules/osenv/package.json
+300 verbose from cache /usr/local/lib/node_modules/npm/node_modules/lockfile/package.json
+301 verbose from cache /usr/local/lib/node_modules/npm/node_modules/retry/package.json
+302 verbose from cache /usr/local/lib/node_modules/npm/node_modules/once/package.json
+303 verbose from cache /usr/local/lib/node_modules/npm/node_modules/npmconf/package.json
+304 verbose from cache /usr/local/lib/node_modules/npm/node_modules/opener/package.json
+305 verbose from cache /usr/local/lib/node_modules/npm/node_modules/chmodr/package.json
+306 verbose from cache /usr/local/lib/node_modules/npm/node_modules/cmd-shim/package.json
+307 verbose from cache /usr/local/lib/node_modules/npm/node_modules/sha/package.json
+308 verbose from cache /usr/local/lib/node_modules/npm/node_modules/editor/package.json
+309 verbose from cache /usr/local/lib/node_modules/npm/node_modules/child-process-close/package.json
+310 verbose from cache /usr/local/lib/node_modules/npm/node_modules/npm-user-validate/package.json
+311 warn package.json cli-table@0.2.0 No repository field.
+312 verbose from cache /usr/local/lib/node_modules/grunt-cli/node_modules/nopt/node_modules/abbrev/package.json
+313 verbose from cache /usr/local/lib/node_modules/grunt-cli/node_modules/findup-sync/node_modules/glob/package.json
+314 verbose from cache /usr/local/lib/node_modules/grunt-cli/node_modules/findup-sync/node_modules/lodash/package.json
+315 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/package.json
+316 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/package.json
+317 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/rimraf/package.json
+318 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/tar/package.json
+319 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/diff/package.json
+320 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/mime/package.json
+321 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/underscore.string/package.json
+322 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/lodash/package.json
+323 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/mkdirp/package.json
+324 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/read/package.json
+325 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/glob/package.json
+326 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/nopt/package.json
+327 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cli-table/package.json
+328 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/debug/package.json
+329 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/isbinaryfile/package.json
+330 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/package.json
+331 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/package.json
+332 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/rimraf/package.json
+333 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/tar/package.json
+334 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/diff/package.json
+335 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/mime/package.json
+336 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/underscore.string/package.json
+337 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/lodash/package.json
+338 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/mkdirp/package.json
+339 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/read/package.json
+340 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/glob/package.json
+341 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/nopt/package.json
+342 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cli-table/package.json
+343 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/debug/package.json
+344 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/isbinaryfile/package.json
+345 warn package.json cheerio-select@0.0.3 No repository field.
+346 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/node_modules/cheerio-select/package.json
+347 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/node_modules/htmlparser2/package.json
+348 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/node_modules/underscore/package.json
+349 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/node_modules/entities/package.json
+350 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/package.json
+351 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/package.json
+352 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/rimraf/package.json
+353 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/tar/package.json
+354 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/diff/package.json
+355 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/mime/package.json
+356 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/underscore.string/package.json
+357 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/lodash/package.json
+358 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/mkdirp/package.json
+359 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/read/package.json
+360 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/glob/package.json
+361 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/nopt/package.json
+362 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cli-table/package.json
+363 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/debug/package.json
+364 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/isbinaryfile/package.json
+365 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/package.json
+366 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/package.json
+367 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/rimraf/package.json
+368 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/tar/package.json
+369 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/diff/package.json
+370 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/mime/package.json
+371 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/underscore.string/package.json
+372 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/lodash/package.json
+373 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/mkdirp/package.json
+374 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/read/package.json
+375 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/glob/package.json
+376 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/nopt/package.json
+377 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cli-table/package.json
+378 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/debug/package.json
+379 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/isbinaryfile/package.json
+380 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/cheerio/package.json
+381 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/package.json
+382 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/rimraf/package.json
+383 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/tar/package.json
+384 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/diff/package.json
+385 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/mime/package.json
+386 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/underscore.string/package.json
+387 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/lodash/package.json
+388 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/mkdirp/package.json
+389 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/glob/package.json
+390 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/nopt/package.json
+391 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/cli-table/package.json
+392 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/debug/package.json
+393 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/isbinaryfile/package.json
+394 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/package.json
+395 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/revalidator/package.json
+396 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/dargs/package.json
+397 verbose read json /usr/local/lib/node_modules/npm/node_modules/minimatch/node_modules/sigmund/package.json
+398 verbose read json /usr/local/lib/node_modules/npm/node_modules/nopt/node_modules/abbrev/package.json
+399 verbose read json /usr/local/lib/node_modules/npm/node_modules/rimraf/node_modules/graceful-fs/package.json
+400 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/aws-sign/package.json
+401 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/cookie-jar/package.json
+402 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/forever-agent/package.json
+403 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/form-data/package.json
+404 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/package.json
+405 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/package.json
+406 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/json-stringify-safe/package.json
+407 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/mime/package.json
+408 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/node-uuid/package.json
+409 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/oauth-sign/package.json
+410 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/qs/package.json
+411 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/package.json
+412 verbose read json /usr/local/lib/node_modules/npm/node_modules/tar/node_modules/inherits/package.json
+413 verbose read json /usr/local/lib/node_modules/npm/node_modules/tar/node_modules/block-stream/package.json
+414 verbose read json /usr/local/lib/node_modules/npm/node_modules/tar/node_modules/fstream/package.json
+415 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream/node_modules/rimraf/package.json
+416 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream/node_modules/mkdirp/package.json
+417 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream/node_modules/graceful-fs/package.json
+418 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream/node_modules/inherits/package.json
+419 verbose read json /usr/local/lib/node_modules/npm/node_modules/block-stream/node_modules/inherits/package.json
+420 verbose read json /usr/local/lib/node_modules/npm/node_modules/read/node_modules/mute-stream/package.json
+421 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/glob/package.json
+422 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/graceful-fs/package.json
+423 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/fstream/package.json
+424 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/minimatch/package.json
+425 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/mkdirp/package.json
+426 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/nopt/package.json
+427 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog/package.json
+428 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/osenv/package.json
+429 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/request/package.json
+430 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/rimraf/package.json
+431 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/semver/package.json
+432 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/tar/package.json
+433 verbose read json /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/which/package.json
+434 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/package.json
+435 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmlog/node_modules/ansi/package.json
+436 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/couch-login/package.json
+437 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/package.json
+438 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-installed/node_modules/semver/package.json
+439 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-installed/node_modules/slide/package.json
+440 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-installed/node_modules/read-package-json/package.json
+441 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-installed/node_modules/graceful-fs/package.json
+442 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-installed/node_modules/npmlog/package.json
+443 verbose read json /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/minimatch/package.json
+444 verbose read json /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/graceful-fs/package.json
+445 verbose read json /usr/local/lib/node_modules/npm/node_modules/glob/node_modules/inherits/package.json
+446 verbose read json /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/promzard/package.json
+447 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/config-chain/package.json
+448 verbose read json /usr/local/lib/node_modules/npm/node_modules/cmd-shim/node_modules/mkdirp/package.json
+449 verbose read json /usr/local/lib/node_modules/npm/node_modules/cmd-shim/node_modules/graceful-fs/package.json
+450 verbose read json /usr/local/lib/node_modules/npm/node_modules/sha/node_modules/graceful-fs/package.json
+451 verbose read json /usr/local/lib/node_modules/grunt-cli/node_modules/findup-sync/node_modules/glob/node_modules/graceful-fs/package.json
+452 verbose read json /usr/local/lib/node_modules/grunt-cli/node_modules/findup-sync/node_modules/glob/node_modules/inherits/package.json
+453 verbose read json /usr/local/lib/node_modules/grunt-cli/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/package.json
+454 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/package.json
+455 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/node_modules/entities/package.json
+456 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/package.json
+457 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/node_modules/underscore/package.json
+458 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/aws-sign/package.json
+459 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/cookie-jar/package.json
+460 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/forever-agent/package.json
+461 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/package.json
+462 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/package.json
+463 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/json-stringify-safe/package.json
+464 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/node-uuid/package.json
+465 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/oauth-sign/package.json
+466 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/qs/package.json
+467 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/tunnel-agent/package.json
+468 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/rimraf/node_modules/graceful-fs/package.json
+469 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/tar/node_modules/block-stream/package.json
+470 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/package.json
+471 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/tar/node_modules/inherits/package.json
+472 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/read/node_modules/mute-stream/package.json
+473 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/glob/node_modules/graceful-fs/package.json
+474 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/glob/node_modules/inherits/package.json
+475 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/package.json
+476 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/package.json
+477 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/node_modules/entities/package.json
+478 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/package.json
+479 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/node_modules/underscore/package.json
+480 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/aws-sign/package.json
+481 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/cookie-jar/package.json
+482 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/forever-agent/package.json
+483 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/package.json
+484 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/package.json
+485 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/json-stringify-safe/package.json
+486 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/node-uuid/package.json
+487 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/oauth-sign/package.json
+488 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/qs/package.json
+489 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/tunnel-agent/package.json
+490 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/rimraf/node_modules/graceful-fs/package.json
+491 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/tar/node_modules/block-stream/package.json
+492 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/package.json
+493 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/tar/node_modules/inherits/package.json
+494 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/read/node_modules/mute-stream/package.json
+495 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/glob/node_modules/graceful-fs/package.json
+496 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/glob/node_modules/inherits/package.json
+497 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/package.json
+498 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/nopt/node_modules/abbrev/package.json
+499 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cli-table/node_modules/colors/package.json
+500 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cli-table/node_modules/colors/package.json
+501 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/nopt/node_modules/abbrev/package.json
+502 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/package.json
+503 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/package.json
+504 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/node_modules/entities/package.json
+505 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/package.json
+506 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/node_modules/underscore/package.json
+507 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/aws-sign/package.json
+508 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/cookie-jar/package.json
+509 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/forever-agent/package.json
+510 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/package.json
+511 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/package.json
+512 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/json-stringify-safe/package.json
+513 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/node-uuid/package.json
+514 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/oauth-sign/package.json
+515 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/qs/package.json
+516 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/tunnel-agent/package.json
+517 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/rimraf/node_modules/graceful-fs/package.json
+518 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/tar/node_modules/block-stream/package.json
+519 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/package.json
+520 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/tar/node_modules/inherits/package.json
+521 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/read/node_modules/mute-stream/package.json
+522 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/glob/node_modules/graceful-fs/package.json
+523 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/glob/node_modules/inherits/package.json
+524 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/package.json
+525 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/nopt/node_modules/abbrev/package.json
+526 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/package.json
+527 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/node_modules/entities/package.json
+528 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/package.json
+529 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/node_modules/underscore/package.json
+530 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cli-table/node_modules/colors/package.json
+531 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/rimraf/node_modules/graceful-fs/package.json
+532 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/aws-sign/package.json
+533 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/cookie-jar/package.json
+534 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/forever-agent/package.json
+535 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/package.json
+536 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/package.json
+537 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/json-stringify-safe/package.json
+538 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/node-uuid/package.json
+539 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/oauth-sign/package.json
+540 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/qs/package.json
+541 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/tunnel-agent/package.json
+542 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/tar/node_modules/block-stream/package.json
+543 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/package.json
+544 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/tar/node_modules/inherits/package.json
+545 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/read/node_modules/mute-stream/package.json
+546 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/glob/node_modules/graceful-fs/package.json
+547 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/glob/node_modules/inherits/package.json
+548 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/package.json
+549 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/nopt/node_modules/abbrev/package.json
+550 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cli-table/node_modules/colors/package.json
+551 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/rimraf/node_modules/graceful-fs/package.json
+552 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/aws-sign/package.json
+553 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/cookie-jar/package.json
+554 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/forever-agent/package.json
+555 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/package.json
+556 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/package.json
+557 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/json-stringify-safe/package.json
+558 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/node-uuid/package.json
+559 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/oauth-sign/package.json
+560 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/qs/package.json
+561 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/tunnel-agent/package.json
+562 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/tar/node_modules/block-stream/package.json
+563 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/package.json
+564 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/tar/node_modules/inherits/package.json
+565 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/glob/node_modules/graceful-fs/package.json
+566 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/glob/node_modules/inherits/package.json
+567 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/package.json
+568 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/nopt/node_modules/abbrev/package.json
+569 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/cli-table/node_modules/colors/package.json
+570 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/pkginfo/package.json
+571 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/read/package.json
+572 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/utile/package.json
+573 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/winston/package.json
+574 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/node_modules/htmlparser2/node_modules/domelementtype/package.json
+575 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/package.json
+576 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/package.json
+577 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/package.json
+578 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/package.json
+579 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/rimraf/package.json
+580 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/tar/package.json
+581 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/diff/package.json
+582 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/mime/package.json
+583 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/underscore.string/package.json
+584 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/lodash/package.json
+585 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/mkdirp/package.json
+586 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/read/package.json
+587 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/glob/package.json
+588 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/nopt/package.json
+589 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cli-table/package.json
+590 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/debug/package.json
+591 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/isbinaryfile/package.json
+592 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/package.json
+593 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/node_modules/entities/package.json
+594 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/package.json
+595 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/node_modules/underscore/package.json
+596 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/rimraf/node_modules/graceful-fs/package.json
+597 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/aws-sign/package.json
+598 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/cookie-jar/package.json
+599 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/forever-agent/package.json
+600 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/package.json
+601 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/package.json
+602 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/json-stringify-safe/package.json
+603 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/node-uuid/package.json
+604 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/oauth-sign/package.json
+605 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/qs/package.json
+606 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/tunnel-agent/package.json
+607 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/read/node_modules/mute-stream/package.json
+608 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/tar/node_modules/block-stream/package.json
+609 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/package.json
+610 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/tar/node_modules/inherits/package.json
+611 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/nopt/node_modules/abbrev/package.json
+612 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cli-table/node_modules/colors/package.json
+613 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/glob/node_modules/graceful-fs/package.json
+614 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/glob/node_modules/inherits/package.json
+615 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/package.json
+616 verbose read json /usr/local/lib/node_modules/bower/node_modules/fstream/node_modules/rimraf/package.json
+617 verbose read json /usr/local/lib/node_modules/bower/node_modules/fstream/node_modules/mkdirp/package.json
+618 verbose from cache /usr/local/lib/node_modules/bower/node_modules/fstream/node_modules/graceful-fs/package.json
+619 verbose from cache /usr/local/lib/node_modules/bower/node_modules/fstream/node_modules/inherits/package.json
+620 verbose from cache /usr/local/lib/node_modules/bower/node_modules/promptly/node_modules/read/package.json
+621 verbose from cache /usr/local/lib/node_modules/bower/node_modules/glob/node_modules/minimatch/package.json
+622 verbose from cache /usr/local/lib/node_modules/bower/node_modules/glob/node_modules/graceful-fs/package.json
+623 verbose from cache /usr/local/lib/node_modules/bower/node_modules/glob/node_modules/inherits/package.json
+624 verbose from cache /usr/local/lib/node_modules/bower/node_modules/rc/node_modules/config-chain/package.json
+625 verbose from cache /usr/local/lib/node_modules/bower/node_modules/rc/node_modules/optimist/package.json
+626 verbose from cache /usr/local/lib/node_modules/bower/node_modules/rimraf/node_modules/graceful-fs/package.json
+627 verbose read json /usr/local/lib/node_modules/bower/node_modules/read-package-json/node_modules/glob/package.json
+628 verbose from cache /usr/local/lib/node_modules/bower/node_modules/read-package-json/node_modules/lru-cache/package.json
+629 verbose read json /usr/local/lib/node_modules/bower/node_modules/read-package-json/node_modules/semver/package.json
+630 verbose from cache /usr/local/lib/node_modules/bower/node_modules/read-package-json/node_modules/slide/package.json
+631 verbose from cache /usr/local/lib/node_modules/bower/node_modules/read-package-json/node_modules/npmlog/package.json
+632 verbose from cache /usr/local/lib/node_modules/bower/node_modules/read-package-json/node_modules/graceful-fs/package.json
+633 verbose from cache /usr/local/lib/node_modules/bower/node_modules/tar/node_modules/inherits/package.json
+634 verbose from cache /usr/local/lib/node_modules/bower/node_modules/tar/node_modules/block-stream/package.json
+635 verbose read json /usr/local/lib/node_modules/bower/node_modules/tar/node_modules/fstream/package.json
+636 verbose read json /usr/local/lib/node_modules/bower/node_modules/promptly/node_modules/read/node_modules/mute-stream/package.json
+637 verbose read json /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/colors/package.json
+638 verbose from cache /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/request/package.json
+639 verbose from cache /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/configstore/package.json
+640 verbose read json /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/semver/package.json
+641 verbose read json /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/fstream/package.json
+642 verbose from cache /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/pullstream/package.json
+643 verbose from cache /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/binary/package.json
+644 verbose from cache /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/readable-stream/package.json
+645 verbose from cache /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/setimmediate/package.json
+646 verbose from cache /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/match-stream/package.json
+647 verbose read json /usr/local/lib/node_modules/bower/node_modules/rc/node_modules/config-chain/node_modules/ini/package.json
+648 verbose read json /usr/local/lib/node_modules/bower/node_modules/rc/node_modules/config-chain/node_modules/proto-list/package.json
+649 verbose read json /usr/local/lib/node_modules/bower/node_modules/rc/node_modules/optimist/node_modules/wordwrap/package.json
+650 verbose read json /usr/local/lib/node_modules/bower/node_modules/read-package-json/node_modules/npmlog/node_modules/ansi/package.json
+651 verbose read json /usr/local/lib/node_modules/bower/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+652 verbose read json /usr/local/lib/node_modules/bower/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+653 verbose read json /usr/local/lib/node_modules/bower/node_modules/tar/node_modules/block-stream/node_modules/inherits/package.json
+654 verbose read json /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/configstore/node_modules/lodash/package.json
+655 verbose read json /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/configstore/node_modules/yamljs/package.json
+656 verbose read json /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/request/node_modules/form-data/package.json
+657 verbose read json /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/request/node_modules/mime/package.json
+658 verbose read json /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/binary/node_modules/buffers/package.json
+659 verbose read json /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/binary/node_modules/chainsaw/package.json
+660 verbose read json /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/pullstream/node_modules/over/package.json
+661 verbose read json /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/pullstream/node_modules/slice-stream/package.json
+662 verbose read json /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/match-stream/node_modules/buffers/package.json
+663 verbose read json /usr/local/lib/node_modules/npm/node_modules/minimatch/node_modules/lru-cache/package.json
+664 verbose from cache /usr/local/lib/node_modules/npm/node_modules/minimatch/node_modules/sigmund/package.json
+665 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/qs/package.json
+666 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/json-stringify-safe/package.json
+667 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/forever-agent/package.json
+668 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/package.json
+669 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/package.json
+670 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/package.json
+671 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/aws-sign/package.json
+672 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/oauth-sign/package.json
+673 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/cookie-jar/package.json
+674 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/node-uuid/package.json
+675 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/mime/package.json
+676 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/form-data/package.json
+677 verbose from cache /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/package.json
+678 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/inherits/package.json
+679 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/request/package.json
+680 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/graceful-fs/package.json
+681 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/semver/package.json
+682 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/slide/package.json
+683 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/chownr/package.json
+684 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/mkdirp/package.json
+685 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/rimraf/package.json
+686 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/retry/package.json
+687 verbose from cache /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/couch-login/package.json
+688 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/package.json
+689 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/glob/package.json
+690 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/lru-cache/package.json
+691 verbose from cache /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/package.json
+692 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/npmlog/package.json
+693 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/graceful-fs/package.json
+694 verbose from cache /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/config-chain/package.json
+695 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/inherits/package.json
+696 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/once/package.json
+697 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/mkdirp/package.json
+698 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/osenv/package.json
+699 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/nopt/package.json
+700 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/semver/package.json
+701 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/ini/package.json
+702 verbose from cache /usr/local/lib/node_modules/npm/node_modules/read/node_modules/mute-stream/package.json
+703 verbose from cache /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/promzard/package.json
+704 verbose read json /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/read/package.json
+705 verbose read json /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/read-package-json/package.json
+706 verbose read json /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/semver/package.json
+707 verbose from cache /usr/local/lib/node_modules/grunt-cli/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/package.json
+708 verbose from cache /usr/local/lib/node_modules/grunt-cli/node_modules/findup-sync/node_modules/glob/node_modules/graceful-fs/package.json
+709 verbose from cache /usr/local/lib/node_modules/grunt-cli/node_modules/findup-sync/node_modules/glob/node_modules/inherits/package.json
+710 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/package.json
+711 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/package.json
+712 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/node_modules/underscore/package.json
+713 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/node_modules/entities/package.json
+714 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/package.json
+715 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/mime/package.json
+716 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/package.json
+717 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/node-uuid/package.json
+718 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/cookie-jar/package.json
+719 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/aws-sign/package.json
+720 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/oauth-sign/package.json
+721 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/forever-agent/package.json
+722 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/tunnel-agent/package.json
+723 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/json-stringify-safe/package.json
+724 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/qs/package.json
+725 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/rimraf/node_modules/graceful-fs/package.json
+726 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/tar/node_modules/inherits/package.json
+727 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/tar/node_modules/block-stream/package.json
+728 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/package.json
+729 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/read/node_modules/mute-stream/package.json
+730 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/package.json
+731 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/glob/node_modules/graceful-fs/package.json
+732 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/glob/node_modules/inherits/package.json
+733 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/package.json
+734 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/package.json
+735 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/node_modules/underscore/package.json
+736 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/node_modules/entities/package.json
+737 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/package.json
+738 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/mime/package.json
+739 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/package.json
+740 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/node-uuid/package.json
+741 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/cookie-jar/package.json
+742 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/aws-sign/package.json
+743 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/oauth-sign/package.json
+744 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/forever-agent/package.json
+745 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/tunnel-agent/package.json
+746 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/json-stringify-safe/package.json
+747 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/qs/package.json
+748 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/rimraf/node_modules/graceful-fs/package.json
+749 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/tar/node_modules/inherits/package.json
+750 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/tar/node_modules/block-stream/package.json
+751 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/package.json
+752 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/read/node_modules/mute-stream/package.json
+753 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/package.json
+754 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/glob/node_modules/graceful-fs/package.json
+755 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/glob/node_modules/inherits/package.json
+756 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/nopt/node_modules/abbrev/package.json
+757 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/package.json
+758 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/package.json
+759 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/package.json
+760 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/node_modules/underscore/package.json
+761 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/node_modules/entities/package.json
+762 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/package.json
+763 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/mime/package.json
+764 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/package.json
+765 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/node-uuid/package.json
+766 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/cookie-jar/package.json
+767 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/aws-sign/package.json
+768 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/oauth-sign/package.json
+769 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/forever-agent/package.json
+770 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/tunnel-agent/package.json
+771 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/json-stringify-safe/package.json
+772 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/qs/package.json
+773 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/rimraf/node_modules/graceful-fs/package.json
+774 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/tar/node_modules/inherits/package.json
+775 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/tar/node_modules/block-stream/package.json
+776 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/package.json
+777 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/read/node_modules/mute-stream/package.json
+778 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/package.json
+779 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/glob/node_modules/graceful-fs/package.json
+780 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/glob/node_modules/inherits/package.json
+781 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cli-table/node_modules/colors/package.json
+782 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/package.json
+783 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/package.json
+784 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/node_modules/underscore/package.json
+785 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/node_modules/entities/package.json
+786 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/nopt/node_modules/abbrev/package.json
+787 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cli-table/node_modules/colors/package.json
+788 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/rimraf/node_modules/graceful-fs/package.json
+789 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/package.json
+790 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/mime/package.json
+791 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/package.json
+792 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/node-uuid/package.json
+793 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/cookie-jar/package.json
+794 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/aws-sign/package.json
+795 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/oauth-sign/package.json
+796 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/forever-agent/package.json
+797 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/tunnel-agent/package.json
+798 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/json-stringify-safe/package.json
+799 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/qs/package.json
+800 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/read/node_modules/mute-stream/package.json
+801 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/tar/node_modules/inherits/package.json
+802 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/tar/node_modules/block-stream/package.json
+803 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/package.json
+804 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/package.json
+805 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/glob/node_modules/graceful-fs/package.json
+806 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/glob/node_modules/inherits/package.json
+807 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/nopt/node_modules/abbrev/package.json
+808 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cli-table/node_modules/colors/package.json
+809 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/rimraf/node_modules/graceful-fs/package.json
+810 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/tar/node_modules/inherits/package.json
+811 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/tar/node_modules/block-stream/package.json
+812 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/package.json
+813 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/package.json
+814 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/glob/node_modules/graceful-fs/package.json
+815 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/glob/node_modules/inherits/package.json
+816 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/package.json
+817 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/mime/package.json
+818 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/package.json
+819 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/node-uuid/package.json
+820 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/cookie-jar/package.json
+821 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/aws-sign/package.json
+822 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/oauth-sign/package.json
+823 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/forever-agent/package.json
+824 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/tunnel-agent/package.json
+825 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/json-stringify-safe/package.json
+826 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/qs/package.json
+827 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/nopt/node_modules/abbrev/package.json
+828 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/pkginfo/package.json
+829 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/read/package.json
+830 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/revalidator/package.json
+831 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/utile/package.json
+832 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/winston/package.json
+833 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/cli-table/node_modules/colors/package.json
+834 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/nopt/node_modules/abbrev/package.json
+835 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cli-table/node_modules/colors/package.json
+836 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/asn1/package.json
+837 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/assert-plus/package.json
+838 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/ctype/package.json
+839 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/boom/package.json
+840 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json
+841 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/hoek/package.json
+842 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/sntp/package.json
+843 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/minimatch/package.json
+844 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/fstream/package.json
+845 verbose read json /usr/local/lib/node_modules/npm/node_modules/fstream-npm/node_modules/fstream-ignore/node_modules/inherits/package.json
+846 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/form-data/node_modules/async/package.json
+847 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+848 verbose read json /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/couch-login/node_modules/request/package.json
+849 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/github-url-from-git/package.json
+850 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/config-chain/node_modules/proto-list/package.json
+851 verbose read json /usr/local/lib/node_modules/npm/node_modules/init-package-json/node_modules/promzard/node_modules/read/package.json
+852 verbose read json /usr/local/lib/node_modules/grunt-cli/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+853 verbose read json /usr/local/lib/node_modules/grunt-cli/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+854 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/package.json
+855 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/async/package.json
+856 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+857 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domelementtype/package.json
+858 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/package.json
+859 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/package.json
+860 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/package.json
+861 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/package.json
+862 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/node_modules/htmlparser2/node_modules/domelementtype/package.json
+863 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/tar/node_modules/block-stream/node_modules/inherits/package.json
+864 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/boom/package.json
+865 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json
+866 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/hoek/package.json
+867 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/sntp/package.json
+868 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/graceful-fs/package.json
+869 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+870 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+871 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/package.json
+872 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/async/package.json
+873 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+874 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/boom/package.json
+875 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json
+876 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/hoek/package.json
+877 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/sntp/package.json
+878 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/tar/node_modules/block-stream/node_modules/inherits/package.json
+879 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domelementtype/package.json
+880 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/package.json
+881 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/package.json
+882 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+883 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+884 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/graceful-fs/package.json
+885 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat/package.json
+886 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/package.json
+887 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domelementtype/package.json
+888 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/package.json
+889 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/package.json
+890 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/async/package.json
+891 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+892 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/boom/package.json
+893 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json
+894 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/hoek/package.json
+895 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/sntp/package.json
+896 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/tar/node_modules/block-stream/node_modules/inherits/package.json
+897 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/graceful-fs/package.json
+898 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+899 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+900 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domelementtype/package.json
+901 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/package.json
+902 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/package.json
+903 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/async/package.json
+904 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+905 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/package.json
+906 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/boom/package.json
+907 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json
+908 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/hoek/package.json
+909 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/sntp/package.json
+910 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/tar/node_modules/block-stream/node_modules/inherits/package.json
+911 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/graceful-fs/package.json
+912 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+913 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+914 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/tar/node_modules/block-stream/node_modules/inherits/package.json
+915 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/graceful-fs/package.json
+916 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+917 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+918 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/async/package.json
+919 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+920 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/boom/package.json
+921 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json
+922 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/hoek/package.json
+923 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/sntp/package.json
+924 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/read/node_modules/mute-stream/package.json
+925 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/utile/node_modules/async/package.json
+926 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/utile/node_modules/deep-equal/package.json
+927 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/utile/node_modules/i/package.json
+928 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/utile/node_modules/ncp/package.json
+929 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/utile/node_modules/rimraf/package.json
+930 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/winston/node_modules/async/package.json
+931 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/winston/node_modules/colors/package.json
+932 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/winston/node_modules/cycle/package.json
+933 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/winston/node_modules/eyes/package.json
+934 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/winston/node_modules/pkginfo/package.json
+935 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/winston/node_modules/request/package.json
+936 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/winston/node_modules/stack-trace/package.json
+937 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/rimraf/node_modules/graceful-fs/package.json
+938 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/package.json
+939 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/package.json
+940 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/node_modules/underscore/package.json
+941 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/node_modules/entities/package.json
+942 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/nopt/node_modules/abbrev/package.json
+943 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/package.json
+944 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/glob/node_modules/graceful-fs/package.json
+945 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/glob/node_modules/inherits/package.json
+946 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/package.json
+947 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/mime/package.json
+948 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/package.json
+949 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/node-uuid/package.json
+950 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/cookie-jar/package.json
+951 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/aws-sign/package.json
+952 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/oauth-sign/package.json
+953 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/forever-agent/package.json
+954 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/tunnel-agent/package.json
+955 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/json-stringify-safe/package.json
+956 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/qs/package.json
+957 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/read/node_modules/mute-stream/package.json
+958 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/node_modules/domelementtype/package.json
+959 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/node_modules/domelementtype/package.json
+960 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/tar/node_modules/inherits/package.json
+961 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/tar/node_modules/block-stream/package.json
+962 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/package.json
+963 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cli-table/node_modules/colors/package.json
+964 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/package.json
+965 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domelementtype/package.json
+966 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/package.json
+967 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/package.json
+968 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+969 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+970 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/boom/package.json
+971 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json
+972 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/hoek/package.json
+973 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/sntp/package.json
+974 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/async/package.json
+975 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+976 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/tar/node_modules/block-stream/node_modules/inherits/package.json
+977 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/graceful-fs/package.json
+978 verbose from cache /usr/local/lib/node_modules/bower/node_modules/request/node_modules/form-data/package.json
+979 verbose from cache /usr/local/lib/node_modules/bower/node_modules/request/node_modules/mime/package.json
+980 verbose from cache /usr/local/lib/node_modules/bower/node_modules/promptly/node_modules/read/node_modules/mute-stream/package.json
+981 verbose from cache /usr/local/lib/node_modules/bower/node_modules/rc/node_modules/optimist/node_modules/wordwrap/package.json
+982 verbose from cache /usr/local/lib/node_modules/bower/node_modules/rc/node_modules/config-chain/node_modules/proto-list/package.json
+983 verbose from cache /usr/local/lib/node_modules/bower/node_modules/rc/node_modules/config-chain/node_modules/ini/package.json
+984 verbose read json /usr/local/lib/node_modules/bower/node_modules/request/node_modules/form-data/node_modules/async/package.json
+985 verbose read json /usr/local/lib/node_modules/bower/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+986 verbose from cache /usr/local/lib/node_modules/bower/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+987 verbose from cache /usr/local/lib/node_modules/bower/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+988 verbose from cache /usr/local/lib/node_modules/bower/node_modules/read-package-json/node_modules/npmlog/node_modules/ansi/package.json
+989 verbose from cache /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/binary/node_modules/chainsaw/package.json
+990 verbose from cache /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/binary/node_modules/buffers/package.json
+991 verbose from cache /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/configstore/node_modules/lodash/package.json
+992 verbose read json /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/configstore/node_modules/mkdirp/package.json
+993 verbose from cache /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/configstore/node_modules/yamljs/package.json
+994 verbose from cache /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/match-stream/node_modules/buffers/package.json
+995 verbose read json /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/match-stream/node_modules/readable-stream/package.json
+996 verbose from cache /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/pullstream/node_modules/over/package.json
+997 verbose read json /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/pullstream/node_modules/readable-stream/package.json
+998 verbose read json /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/pullstream/node_modules/setimmediate/package.json
+999 verbose from cache /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/pullstream/node_modules/slice-stream/package.json
+1000 verbose read json /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/configstore/node_modules/yamljs/node_modules/argparse/package.json
+1001 verbose read json /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/pullstream/node_modules/slice-stream/node_modules/readable-stream/package.json
+1002 verbose read json /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/binary/node_modules/chainsaw/node_modules/traverse/package.json
+1003 warn package.json assert-plus@0.1.2 No repository field.
+1004 warn package.json ctype@0.5.2 No repository field.
+1005 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/assert-plus/package.json
+1006 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/asn1/package.json
+1007 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/ctype/package.json
+1008 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+1009 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/form-data/node_modules/mime/package.json
+1010 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/form-data/node_modules/async/package.json
+1011 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/hoek/package.json
+1012 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/boom/package.json
+1013 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json
+1014 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/sntp/package.json
+1015 verbose from cache /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/config-chain/node_modules/proto-list/package.json
+1016 verbose read json /usr/local/lib/node_modules/npm/node_modules/npmconf/node_modules/config-chain/node_modules/ini/package.json
+1017 warn package.json github-url-from-git@1.1.1 No repository field.
+1018 verbose read json /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/semver/package.json
+1019 verbose from cache /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/github-url-from-git/package.json
+1020 verbose from cache /usr/local/lib/node_modules/grunt-cli/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+1021 verbose from cache /usr/local/lib/node_modules/grunt-cli/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+1022 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/package.json
+1023 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+1024 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/mime/package.json
+1025 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/async/package.json
+1026 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/hoek/package.json
+1027 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/boom/package.json
+1028 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json
+1029 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/sntp/package.json
+1030 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/rimraf/package.json
+1031 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/mkdirp/package.json
+1032 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/graceful-fs/package.json
+1033 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/inherits/package.json
+1034 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+1035 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+1036 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/package.json
+1037 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+1038 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/mime/package.json
+1039 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/async/package.json
+1040 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/hoek/package.json
+1041 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/boom/package.json
+1042 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json
+1043 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/sntp/package.json
+1044 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+1045 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+1046 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/rimraf/package.json
+1047 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/mkdirp/package.json
+1048 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/graceful-fs/package.json
+1049 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/inherits/package.json
+1050 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat/package.json
+1051 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/package.json
+1052 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/package.json
+1053 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/package.json
+1054 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domelementtype/package.json
+1055 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+1056 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/mime/package.json
+1057 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/async/package.json
+1058 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/hoek/package.json
+1059 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/boom/package.json
+1060 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json
+1061 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/sntp/package.json
+1062 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/rimraf/package.json
+1063 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/mkdirp/package.json
+1064 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/graceful-fs/package.json
+1065 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/inherits/package.json
+1066 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+1067 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+1068 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/package.json
+1069 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/package.json
+1070 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domelementtype/package.json
+1071 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+1072 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/mime/package.json
+1073 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/async/package.json
+1074 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/package.json
+1075 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/hoek/package.json
+1076 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/boom/package.json
+1077 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json
+1078 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/sntp/package.json
+1079 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/rimraf/package.json
+1080 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/mkdirp/package.json
+1081 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/graceful-fs/package.json
+1082 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/inherits/package.json
+1083 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+1084 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+1085 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/rimraf/package.json
+1086 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/mkdirp/package.json
+1087 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/graceful-fs/package.json
+1088 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/inherits/package.json
+1089 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+1090 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+1091 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+1092 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/mime/package.json
+1093 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/async/package.json
+1094 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/hoek/package.json
+1095 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/boom/package.json
+1096 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json
+1097 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/sntp/package.json
+1098 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/read/node_modules/mute-stream/package.json
+1099 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/package.json
+1100 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/package.json
+1101 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domelementtype/package.json
+1102 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/utile/node_modules/async/package.json
+1103 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/utile/node_modules/deep-equal/package.json
+1104 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/utile/node_modules/i/package.json
+1105 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/utile/node_modules/mkdirp/package.json
+1106 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/utile/node_modules/ncp/package.json
+1107 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/utile/node_modules/rimraf/package.json
+1108 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+1109 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/boom/node_modules/hoek/package.json
+1110 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/cryptiles/node_modules/boom/package.json
+1111 verbose read json /usr/local/lib/node_modules/npm/node_modules/request/node_modules/hawk/node_modules/sntp/node_modules/hoek/package.json
+1112 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat/package.json
+1113 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/boom/node_modules/hoek/package.json
+1114 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/sntp/node_modules/hoek/package.json
+1115 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/cryptiles/node_modules/boom/package.json
+1116 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+1117 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/boom/node_modules/hoek/package.json
+1118 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+1119 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/cryptiles/node_modules/boom/package.json
+1120 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/sntp/node_modules/hoek/package.json
+1121 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat/package.json
+1122 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/node_modules/domelementtype/package.json
+1123 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat/package.json
+1124 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/boom/node_modules/hoek/package.json
+1125 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/cryptiles/node_modules/boom/package.json
+1126 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/sntp/node_modules/hoek/package.json
+1127 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+1128 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/node_modules/domelementtype/package.json
+1129 verbose read json /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/node_modules/domelementtype/package.json
+1130 verbose read json /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/node_modules/domelementtype/package.json
+1131 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+1132 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/cryptiles/node_modules/boom/package.json
+1133 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/boom/node_modules/hoek/package.json
+1134 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat/package.json
+1135 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/sntp/node_modules/hoek/package.json
+1136 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+1137 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/boom/node_modules/hoek/package.json
+1138 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/cryptiles/node_modules/boom/package.json
+1139 verbose read json /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/sntp/node_modules/hoek/package.json
+1140 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/node_modules/domelementtype/package.json
+1141 verbose read json /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/node_modules/domelementtype/package.json
+1142 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/package.json
+1143 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/package.json
+1144 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domelementtype/package.json
+1145 warn package.json eyes@0.1.8 No repository field.
+1146 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/winston/node_modules/async/package.json
+1147 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/winston/node_modules/colors/package.json
+1148 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/winston/node_modules/cycle/package.json
+1149 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/winston/node_modules/eyes/package.json
+1150 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/winston/node_modules/pkginfo/package.json
+1151 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/winston/node_modules/request/package.json
+1152 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/prompt/node_modules/winston/node_modules/stack-trace/package.json
+1153 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/package.json
+1154 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/package.json
+1155 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/package.json
+1156 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domelementtype/package.json
+1157 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json
+1158 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json
+1159 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+1160 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/mime/package.json
+1161 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/async/package.json
+1162 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/node_modules/domelementtype/package.json
+1163 verbose read json /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/node_modules/domelementtype/package.json
+1164 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat/package.json
+1165 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/node_modules/domelementtype/package.json
+1166 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/node_modules/domelementtype/package.json
+1167 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/rimraf/package.json
+1168 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/mkdirp/package.json
+1169 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/graceful-fs/package.json
+1170 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/tar/node_modules/fstream/node_modules/inherits/package.json
+1171 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/hoek/package.json
+1172 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/boom/package.json
+1173 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json
+1174 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/sntp/package.json
+1175 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+1176 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/boom/node_modules/hoek/package.json
+1177 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/cryptiles/node_modules/boom/package.json
+1178 verbose read json /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/hawk/node_modules/sntp/node_modules/hoek/package.json
+1179 verbose from cache /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/request/node_modules/form-data/package.json
+1180 verbose from cache /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/request/node_modules/mime/package.json
+1181 verbose from cache /usr/local/lib/node_modules/npm/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+1182 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat/package.json
+1183 verbose from cache /usr/local/lib/node_modules/bower/node_modules/unzip/node_modules/binary/node_modules/chainsaw/node_modules/traverse/package.json
+1184 verbose read json /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/request/node_modules/form-data/node_modules/async/package.json
+1185 verbose read json /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+1186 verbose from cache /usr/local/lib/node_modules/generator-init/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+1187 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+1188 verbose from cache /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/configstore/node_modules/yamljs/node_modules/argparse/package.json
+1189 verbose read json /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/configstore/node_modules/yamljs/node_modules/glob/package.json
+1190 verbose from cache /usr/local/lib/node_modules/generator-angular/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat/package.json
+1191 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+1192 verbose from cache /usr/local/lib/node_modules/generator-karma/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat/package.json
+1193 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat/package.json
+1194 verbose from cache /usr/local/lib/node_modules/generator-mocha/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+1195 verbose from cache /usr/local/lib/node_modules/generator-webapp/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+1196 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/cheerio/node_modules/cheerio-select/node_modules/CSSselect/node_modules/CSSwhat/package.json
+1197 verbose read json /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/configstore/node_modules/yamljs/node_modules/argparse/node_modules/underscore/package.json
+1198 verbose read json /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/configstore/node_modules/yamljs/node_modules/argparse/node_modules/underscore.string/package.json
+1199 verbose from cache /usr/local/lib/node_modules/bower/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+1200 verbose read json /usr/local/lib/node_modules/bower/node_modules/request/node_modules/form-data/node_modules/mime/package.json
+1201 verbose from cache /usr/local/lib/node_modules/bower/node_modules/request/node_modules/form-data/node_modules/async/package.json
+1202 verbose read json /usr/local/lib/node_modules/bower/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+1203 verbose from cache /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/configstore/node_modules/yamljs/node_modules/argparse/node_modules/underscore/package.json
+1204 verbose from cache /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/configstore/node_modules/yamljs/node_modules/argparse/node_modules/underscore.string/package.json
+1205 verbose from cache /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+1206 verbose read json /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/request/node_modules/form-data/node_modules/mime/package.json
+1207 verbose from cache /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/request/node_modules/form-data/node_modules/async/package.json
+1208 verbose read json /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+1209 verbose from cache /usr/local/lib/node_modules/generator-h5bp/node_modules/yeoman-generator/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+1210 verbose from cache /usr/local/lib/node_modules/bower/node_modules/update-notifier/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+1211 verbose from cache /usr/local/lib/node_modules/bower/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+1212 http 200 https://registry.npmjs.org/yo
+1213 silly registry.get cb [ 200,
+1213 silly registry.get   { vary: 'Accept',
+1213 silly registry.get     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+1213 silly registry.get     etag: '"AQCZWRQDJXUSYGISH3ZCVESBR"',
+1213 silly registry.get     date: 'Fri, 05 Jul 2013 20:39:06 GMT',
+1213 silly registry.get     'content-type': 'application/json',
+1213 silly registry.get     'content-length': '30739' } ]
+1214 silly addNameRange number 2 { name: 'yo', range: '', hasData: true }
+1215 silly addNameRange versions [ 'yo',
+1215 silly addNameRange   [ '1.0.0-beta.1',
+1215 silly addNameRange     '1.0.0-beta.2',
+1215 silly addNameRange     '1.0.0-beta.3',
+1215 silly addNameRange     '1.0.0-beta.4',
+1215 silly addNameRange     '1.0.0-beta.5',
+1215 silly addNameRange     '1.0.0-beta.6',
+1215 silly addNameRange     '1.0.0-beta.7',
+1215 silly addNameRange     '1.0.0-rc.1',
+1215 silly addNameRange     '1.0.0-rc.1.1' ] ]
+1216 verbose addNamed [ 'yo', '1.0.0-rc.1.1' ]
+1217 verbose addNamed [ '1.0.0-rc.1.1', '1.0.0-rc.1.1' ]
+1218 silly lockFile 1fd30b69-yo-1-0-0-rc-1-1 yo@1.0.0-rc.1.1
+1219 verbose lock yo@1.0.0-rc.1.1 /Users/Admin/.npm/1fd30b69-yo-1-0-0-rc-1-1.lock
+1220 silly lockFile 36c44f69-npmjs-org-yo-yo-1-0-0-rc-1-1-tgz https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz
+1221 verbose lock https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz /Users/Admin/.npm/36c44f69-npmjs-org-yo-yo-1-0-0-rc-1-1-tgz.lock
+1222 verbose addRemoteTarball [ 'https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz',
+1222 verbose addRemoteTarball   'af97d72a2efbacf462880c2bd8012e59d3c76c78' ]
+1223 info retry fetch attempt 1 at 23:39:06
+1224 verbose fetch to= /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056746753-0.02219789638184011/tmp.tgz
+1225 http GET https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz
+1226 http 200 https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz
+1227 verbose tar unpack /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056746753-0.02219789638184011/tmp.tgz
+1228 silly lockFile caaf672b-6753-0-02219789638184011-package /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056746753-0.02219789638184011/package
+1229 verbose lock /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056746753-0.02219789638184011/package /Users/Admin/.npm/caaf672b-6753-0-02219789638184011-package.lock
+1230 silly lockFile 94dc9250-6753-0-02219789638184011-tmp-tgz /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056746753-0.02219789638184011/tmp.tgz
+1231 verbose lock /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056746753-0.02219789638184011/tmp.tgz /Users/Admin/.npm/94dc9250-6753-0-02219789638184011-tmp-tgz.lock
+1232 silly gunzTarPerm modes [ '755', '644' ]
+1233 silly gunzTarPerm extractEntry package.json
+1234 silly gunzTarPerm extractEntry .travis.yml
+1235 silly gunzTarPerm extractEntry bin/yoyo.js
+1236 silly gunzTarPerm extractEntry bin/help.txt
+1237 silly gunzTarPerm extractEntry bin/yo
+1238 silly gunzTarPerm extractEntry out.txt
+1239 silly gunzTarPerm extractEntry readme.md
+1240 verbose read json /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056746753-0.02219789638184011/package/package.json
+1241 silly lockFile caaf672b-6753-0-02219789638184011-package /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056746753-0.02219789638184011/package
+1242 silly lockFile caaf672b-6753-0-02219789638184011-package /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056746753-0.02219789638184011/package
+1243 silly lockFile 94dc9250-6753-0-02219789638184011-tmp-tgz /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056746753-0.02219789638184011/tmp.tgz
+1244 silly lockFile 94dc9250-6753-0-02219789638184011-tmp-tgz /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056746753-0.02219789638184011/tmp.tgz
+1245 verbose from cache /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056746753-0.02219789638184011/package/package.json
+1246 verbose tar pack [ '/Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz',
+1246 verbose tar pack   '/var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056746753-0.02219789638184011/package' ]
+1247 verbose tarball /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz
+1248 verbose folder /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056746753-0.02219789638184011/package
+1249 silly lockFile caaf672b-6753-0-02219789638184011-package /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056746753-0.02219789638184011/package
+1250 verbose lock /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056746753-0.02219789638184011/package /Users/Admin/.npm/caaf672b-6753-0-02219789638184011-package.lock
+1251 silly lockFile 5b6f65d8--npm-yo-1-0-0-rc-1-1-package-tgz /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz
+1252 verbose lock /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz /Users/Admin/.npm/5b6f65d8--npm-yo-1-0-0-rc-1-1-package-tgz.lock
+1253 silly lockFile caaf672b-6753-0-02219789638184011-package /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056746753-0.02219789638184011/package
+1254 silly lockFile caaf672b-6753-0-02219789638184011-package /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056746753-0.02219789638184011/package
+1255 silly lockFile 5b6f65d8--npm-yo-1-0-0-rc-1-1-package-tgz /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz
+1256 silly lockFile 5b6f65d8--npm-yo-1-0-0-rc-1-1-package-tgz /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz
+1257 silly lockFile 693e21ce-dmin-npm-yo-1-0-0-rc-1-1-package /Users/Admin/.npm/yo/1.0.0-rc.1.1/package
+1258 verbose lock /Users/Admin/.npm/yo/1.0.0-rc.1.1/package /Users/Admin/.npm/693e21ce-dmin-npm-yo-1-0-0-rc-1-1-package.lock
+1259 silly lockFile 693e21ce-dmin-npm-yo-1-0-0-rc-1-1-package /Users/Admin/.npm/yo/1.0.0-rc.1.1/package
+1260 silly lockFile 693e21ce-dmin-npm-yo-1-0-0-rc-1-1-package /Users/Admin/.npm/yo/1.0.0-rc.1.1/package
+1261 verbose tar unpack /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz
+1262 silly lockFile 693e21ce-dmin-npm-yo-1-0-0-rc-1-1-package /Users/Admin/.npm/yo/1.0.0-rc.1.1/package
+1263 verbose lock /Users/Admin/.npm/yo/1.0.0-rc.1.1/package /Users/Admin/.npm/693e21ce-dmin-npm-yo-1-0-0-rc-1-1-package.lock
+1264 silly lockFile 5b6f65d8--npm-yo-1-0-0-rc-1-1-package-tgz /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz
+1265 verbose lock /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz /Users/Admin/.npm/5b6f65d8--npm-yo-1-0-0-rc-1-1-package-tgz.lock
+1266 silly gunzTarPerm modes [ '755', '644' ]
+1267 silly gunzTarPerm extractEntry package.json
+1268 silly gunzTarPerm extractEntry .travis.yml
+1269 silly gunzTarPerm extractEntry bin/yoyo.js
+1270 silly gunzTarPerm extractEntry bin/help.txt
+1271 silly gunzTarPerm extractEntry bin/yo
+1272 silly gunzTarPerm extractEntry out.txt
+1273 silly gunzTarPerm extractEntry readme.md
+1274 verbose read json /Users/Admin/.npm/yo/1.0.0-rc.1.1/package/package.json
+1275 silly lockFile 693e21ce-dmin-npm-yo-1-0-0-rc-1-1-package /Users/Admin/.npm/yo/1.0.0-rc.1.1/package
+1276 silly lockFile 693e21ce-dmin-npm-yo-1-0-0-rc-1-1-package /Users/Admin/.npm/yo/1.0.0-rc.1.1/package
+1277 silly lockFile 5b6f65d8--npm-yo-1-0-0-rc-1-1-package-tgz /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz
+1278 silly lockFile 5b6f65d8--npm-yo-1-0-0-rc-1-1-package-tgz /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz
+1279 verbose from cache /Users/Admin/.npm/yo/1.0.0-rc.1.1/package/package.json
+1280 verbose chmod /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz 644
+1281 verbose chown /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz [ 501, 20 ]
+1282 silly lockFile 36c44f69-npmjs-org-yo-yo-1-0-0-rc-1-1-tgz https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz
+1283 silly lockFile 36c44f69-npmjs-org-yo-yo-1-0-0-rc-1-1-tgz https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz
+1284 silly lockFile 1fd30b69-yo-1-0-0-rc-1-1 yo@1.0.0-rc.1.1
+1285 silly lockFile 1fd30b69-yo-1-0-0-rc-1-1 yo@1.0.0-rc.1.1
+1286 silly lockFile ec8b77ae-yo yo@*
+1287 silly lockFile ec8b77ae-yo yo@*
+1288 info outdated updating [ [ '/usr/local/lib', 'yo', '1.0.0-beta.5', '1.0.0-rc.1.1' ] ]
+1289 verbose install where,what [ '/usr/local/lib', [ 'yo@1.0.0-rc.1.1' ] ]
+1290 verbose read json /usr/local/lib/package.json
+1291 verbose read json /usr/local/lib/package.json
+1292 verbose cache add [ 'yo@1.0.0-rc.1.1', null ]
+1293 verbose cache add name=undefined spec="yo@1.0.0-rc.1.1" args=["yo@1.0.0-rc.1.1",null]
+1294 verbose parsed url { protocol: null,
+1294 verbose parsed url   slashes: null,
+1294 verbose parsed url   auth: null,
+1294 verbose parsed url   host: null,
+1294 verbose parsed url   port: null,
+1294 verbose parsed url   hostname: null,
+1294 verbose parsed url   hash: null,
+1294 verbose parsed url   search: null,
+1294 verbose parsed url   query: null,
+1294 verbose parsed url   pathname: 'yo@1.0.0-rc.1.1',
+1294 verbose parsed url   path: 'yo@1.0.0-rc.1.1',
+1294 verbose parsed url   href: 'yo@1.0.0-rc.1.1' }
+1295 verbose cache add name="yo" spec="1.0.0-rc.1.1" args=["yo","1.0.0-rc.1.1"]
+1296 verbose parsed url { protocol: null,
+1296 verbose parsed url   slashes: null,
+1296 verbose parsed url   auth: null,
+1296 verbose parsed url   host: null,
+1296 verbose parsed url   port: null,
+1296 verbose parsed url   hostname: null,
+1296 verbose parsed url   hash: null,
+1296 verbose parsed url   search: null,
+1296 verbose parsed url   query: null,
+1296 verbose parsed url   pathname: '1.0.0-rc.1.1',
+1296 verbose parsed url   path: '1.0.0-rc.1.1',
+1296 verbose parsed url   href: '1.0.0-rc.1.1' }
+1297 verbose addNamed [ 'yo', '1.0.0-rc.1.1' ]
+1298 verbose addNamed [ '1.0.0-rc.1.1', '1.0.0-rc.1.1' ]
+1299 silly lockFile 1fd30b69-yo-1-0-0-rc-1-1 yo@1.0.0-rc.1.1
+1300 verbose lock yo@1.0.0-rc.1.1 /Users/Admin/.npm/1fd30b69-yo-1-0-0-rc-1-1.lock
+1301 verbose url raw yo/1.0.0-rc.1.1
+1302 verbose url resolving [ 'https://registry.npmjs.org/', './yo/1.0.0-rc.1.1' ]
+1303 verbose url resolved https://registry.npmjs.org/yo/1.0.0-rc.1.1
+1304 info trying registry request attempt 1 at 23:39:08
+1305 http GET https://registry.npmjs.org/yo/1.0.0-rc.1.1
+1306 http 200 https://registry.npmjs.org/yo/1.0.0-rc.1.1
+1307 silly registry.get cb [ 200,
+1307 silly registry.get   { vary: 'Accept',
+1307 silly registry.get     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+1307 silly registry.get     etag: '"AQCZWRQDJXUSYGISH3ZCVESBR"',
+1307 silly registry.get     date: 'Fri, 05 Jul 2013 20:39:10 GMT',
+1307 silly registry.get     'content-type': 'application/json',
+1307 silly registry.get     'content-length': '2221' } ]
+1308 silly lockFile 36c44f69-npmjs-org-yo-yo-1-0-0-rc-1-1-tgz https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz
+1309 verbose lock https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz /Users/Admin/.npm/36c44f69-npmjs-org-yo-yo-1-0-0-rc-1-1-tgz.lock
+1310 verbose addRemoteTarball [ 'https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz',
+1310 verbose addRemoteTarball   'af97d72a2efbacf462880c2bd8012e59d3c76c78' ]
+1311 info retry fetch attempt 1 at 23:39:10
+1312 verbose fetch to= /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056750446-0.9242348235566169/tmp.tgz
+1313 http GET https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz
+1314 http 200 https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz
+1315 verbose tar unpack /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056750446-0.9242348235566169/tmp.tgz
+1316 silly lockFile 9a855408-50446-0-9242348235566169-package /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056750446-0.9242348235566169/package
+1317 verbose lock /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056750446-0.9242348235566169/package /Users/Admin/.npm/9a855408-50446-0-9242348235566169-package.lock
+1318 silly lockFile cbef3351-50446-0-9242348235566169-tmp-tgz /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056750446-0.9242348235566169/tmp.tgz
+1319 verbose lock /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056750446-0.9242348235566169/tmp.tgz /Users/Admin/.npm/cbef3351-50446-0-9242348235566169-tmp-tgz.lock
+1320 silly gunzTarPerm modes [ '755', '644' ]
+1321 silly gunzTarPerm extractEntry package.json
+1322 silly gunzTarPerm extractEntry .travis.yml
+1323 silly gunzTarPerm extractEntry bin/yoyo.js
+1324 silly gunzTarPerm extractEntry bin/help.txt
+1325 silly gunzTarPerm extractEntry bin/yo
+1326 silly gunzTarPerm extractEntry out.txt
+1327 silly gunzTarPerm extractEntry readme.md
+1328 verbose read json /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056750446-0.9242348235566169/package/package.json
+1329 silly lockFile 9a855408-50446-0-9242348235566169-package /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056750446-0.9242348235566169/package
+1330 silly lockFile 9a855408-50446-0-9242348235566169-package /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056750446-0.9242348235566169/package
+1331 silly lockFile cbef3351-50446-0-9242348235566169-tmp-tgz /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056750446-0.9242348235566169/tmp.tgz
+1332 silly lockFile cbef3351-50446-0-9242348235566169-tmp-tgz /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056750446-0.9242348235566169/tmp.tgz
+1333 verbose from cache /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056750446-0.9242348235566169/package/package.json
+1334 verbose tar pack [ '/Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz',
+1334 verbose tar pack   '/var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056750446-0.9242348235566169/package' ]
+1335 verbose tarball /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz
+1336 verbose folder /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056750446-0.9242348235566169/package
+1337 silly lockFile 9a855408-50446-0-9242348235566169-package /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056750446-0.9242348235566169/package
+1338 verbose lock /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056750446-0.9242348235566169/package /Users/Admin/.npm/9a855408-50446-0-9242348235566169-package.lock
+1339 silly lockFile 5b6f65d8--npm-yo-1-0-0-rc-1-1-package-tgz /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz
+1340 verbose lock /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz /Users/Admin/.npm/5b6f65d8--npm-yo-1-0-0-rc-1-1-package-tgz.lock
+1341 silly lockFile 9a855408-50446-0-9242348235566169-package /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056750446-0.9242348235566169/package
+1342 silly lockFile 9a855408-50446-0-9242348235566169-package /var/folders/gg/wm_1mm3s4hn4bf9b5_2xbmdw0000gn/T/npm-322/1373056750446-0.9242348235566169/package
+1343 silly lockFile 5b6f65d8--npm-yo-1-0-0-rc-1-1-package-tgz /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz
+1344 silly lockFile 5b6f65d8--npm-yo-1-0-0-rc-1-1-package-tgz /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz
+1345 silly lockFile 693e21ce-dmin-npm-yo-1-0-0-rc-1-1-package /Users/Admin/.npm/yo/1.0.0-rc.1.1/package
+1346 verbose lock /Users/Admin/.npm/yo/1.0.0-rc.1.1/package /Users/Admin/.npm/693e21ce-dmin-npm-yo-1-0-0-rc-1-1-package.lock
+1347 silly lockFile 693e21ce-dmin-npm-yo-1-0-0-rc-1-1-package /Users/Admin/.npm/yo/1.0.0-rc.1.1/package
+1348 silly lockFile 693e21ce-dmin-npm-yo-1-0-0-rc-1-1-package /Users/Admin/.npm/yo/1.0.0-rc.1.1/package
+1349 verbose tar unpack /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz
+1350 silly lockFile 693e21ce-dmin-npm-yo-1-0-0-rc-1-1-package /Users/Admin/.npm/yo/1.0.0-rc.1.1/package
+1351 verbose lock /Users/Admin/.npm/yo/1.0.0-rc.1.1/package /Users/Admin/.npm/693e21ce-dmin-npm-yo-1-0-0-rc-1-1-package.lock
+1352 silly lockFile 5b6f65d8--npm-yo-1-0-0-rc-1-1-package-tgz /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz
+1353 verbose lock /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz /Users/Admin/.npm/5b6f65d8--npm-yo-1-0-0-rc-1-1-package-tgz.lock
+1354 silly gunzTarPerm modes [ '755', '644' ]
+1355 silly gunzTarPerm extractEntry package.json
+1356 silly gunzTarPerm extractEntry .travis.yml
+1357 silly gunzTarPerm extractEntry bin/yoyo.js
+1358 silly gunzTarPerm extractEntry bin/help.txt
+1359 silly gunzTarPerm extractEntry bin/yo
+1360 silly gunzTarPerm extractEntry out.txt
+1361 silly gunzTarPerm extractEntry readme.md
+1362 verbose from cache /Users/Admin/.npm/yo/1.0.0-rc.1.1/package/package.json
+1363 silly lockFile 693e21ce-dmin-npm-yo-1-0-0-rc-1-1-package /Users/Admin/.npm/yo/1.0.0-rc.1.1/package
+1364 silly lockFile 693e21ce-dmin-npm-yo-1-0-0-rc-1-1-package /Users/Admin/.npm/yo/1.0.0-rc.1.1/package
+1365 silly lockFile 5b6f65d8--npm-yo-1-0-0-rc-1-1-package-tgz /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz
+1366 silly lockFile 5b6f65d8--npm-yo-1-0-0-rc-1-1-package-tgz /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz
+1367 verbose from cache /Users/Admin/.npm/yo/1.0.0-rc.1.1/package/package.json
+1368 verbose chmod /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz 644
+1369 verbose chown /Users/Admin/.npm/yo/1.0.0-rc.1.1/package.tgz [ 501, 20 ]
+1370 silly lockFile 36c44f69-npmjs-org-yo-yo-1-0-0-rc-1-1-tgz https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz
+1371 silly lockFile 36c44f69-npmjs-org-yo-yo-1-0-0-rc-1-1-tgz https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz
+1372 silly lockFile 1fd30b69-yo-1-0-0-rc-1-1 yo@1.0.0-rc.1.1
+1373 silly lockFile 1fd30b69-yo-1-0-0-rc-1-1 yo@1.0.0-rc.1.1
+1374 silly resolved [ { name: 'yo',
+1374 silly resolved     version: '1.0.0-rc.1.1',
+1374 silly resolved     description: 'CLI tool for scaffolding out Yeoman projects',
+1374 silly resolved     keywords:
+1374 silly resolved      [ 'front-end',
+1374 silly resolved        'development',
+1374 silly resolved        'dev',
+1374 silly resolved        'build',
+1374 silly resolved        'web',
+1374 silly resolved        'tool',
+1374 silly resolved        'cli',
+1374 silly resolved        'scaffold',
+1374 silly resolved        'stack' ],
+1374 silly resolved     homepage: 'http://yeoman.io',
+1374 silly resolved     bugs: { url: 'https://github.com/yeoman/yo/issues' },
+1374 silly resolved     author: { name: 'Chrome Developer Relations' },
+1374 silly resolved     bin: { yo: 'bin/yo' },
+1374 silly resolved     repository: { type: 'git', url: 'git://github.com/yeoman/yo.git' },
+1374 silly resolved     scripts: { test: 'mocha' },
+1374 silly resolved     dependencies:
+1374 silly resolved      { 'yeoman-generator': '~0.12.2',
+1374 silly resolved        colors: '~0.6.0',
+1374 silly resolved        nopt: '~2.1.1',
+1374 silly resolved        lodash: '~1.1.1',
+1374 silly resolved        'update-notifier': '~0.1.3',
+1374 silly resolved        insight: '~0.1.0',
+1374 silly resolved        'sudo-block': '~0.1.0',
+1374 silly resolved        async: '~0.2.9',
+1374 silly resolved        open: '0.0.3' },
+1374 silly resolved     peerDependencies: { 'grunt-cli': '~0.1.7', bower: '>=0.9.0' },
+1374 silly resolved     devDependencies:
+1374 silly resolved      { mocha: '~1.9.0',
+1374 silly resolved        ronn: '~0.4.0',
+1374 silly resolved        grunt: '~0.4.1',
+1374 silly resolved        mockery: '~1.4.0' },
+1374 silly resolved     engines: { node: '>=0.8.0', npm: '>=1.2.10' },
+1374 silly resolved     preferGlobal: true,
+1374 silly resolved     licenses: [ [Object] ],
+1374 silly resolved     readme: '# Yo [![Build Status](https://secure.travis-ci.org/yeoman/yo.png?branch=master)](http://travis-ci.org/yeoman/yo)\n\nCLI tool for scaffolding out [Yeoman](https://github.com/yeoman/yeoman) projects\n\n## [Documentation](https://github.com/yeoman/yeoman/wiki)\n\n\n## Options\n\n- `--no-color` flag to disable colors.\n\n- `--no-insight`/`--insight` to toggle anonymous [Insight](https://github.com/yeoman/insight) tracking which helps us improve Yeoman. Using either of these flags on the first run will prevent you from being prompted about it interactively. The flags can also be used to change it later on.\n\n\n## Contribute\n\nSee the [contributing docs](https://github.com/yeoman/yeoman/blob/master/contributing.md)\n\n\n## License\n\n[BSD license](http://opensource.org/licenses/bsd-license.php) and copyright Google\n',
+1374 silly resolved     readmeFilename: 'readme.md',
+1374 silly resolved     _id: 'yo@1.0.0-rc.1.1',
+1374 silly resolved     dist: { shasum: 'c2f36ea2ea1f169462b07779c6ed4d89d0a37b21' },
+1374 silly resolved     _from: 'yo@1.0.0-rc.1.1',
+1374 silly resolved     _resolved: 'https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz' } ]
+1375 info install yo@1.0.0-rc.1.1 into /usr/local/lib
+1376 info installOne yo@1.0.0-rc.1.1
+1377 verbose from cache /Users/Admin/.npm/yo/1.0.0-rc.1.1/package/package.json
+1378 info /usr/local/lib/node_modules/yo unbuild
+1379 verbose from cache /usr/local/lib/node_modules/yo/package.json
+1380 info preuninstall yo@1.0.0-beta.5
+1381 info uninstall yo@1.0.0-beta.5
+1382 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild yo@1.0.0-beta.5
+1383 verbose /usr/local/bin,[object Object] binRoot
+1384 info /usr/local/lib/node_modules/yo unbuild
+1385 verbose read json /usr/local/lib/node_modules/yo/package.json
+1386 info preuninstall yo@1.0.0-beta.5
+1387 info uninstall yo@1.0.0-beta.5
+1388 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild yo@1.0.0-beta.5
+1389 verbose /usr/local/bin,[object Object] binRoot
+1390 error error rolling back Error: EACCES, unlink '/usr/local/bin/yo'
+1390 error error rolling back  yo@1.0.0-rc.1.1 { [Error: EACCES, unlink '/usr/local/bin/yo'] errno: 3, code: 'EACCES', path: '/usr/local/bin/yo' }
+1391 error Error: EACCES, unlink '/usr/local/bin/yo'
+1391 error  { [Error: EACCES, unlink '/usr/local/bin/yo'] errno: 3, code: 'EACCES', path: '/usr/local/bin/yo' }
+1392 error Please try running this command again as root/Administrator.
+1393 error System Darwin 12.2.0
+1394 error command "node" "/usr/local/bin/npm" "update" "-g" "yo"
+1395 error cwd /Users/Admin/Documents/work/ytclient
+1396 error node -v v0.10.8
+1397 error npm -v 1.2.23
+1398 error path /usr/local/bin/yo
+1399 error code EACCES
+1400 error errno 3
+1401 error stack Error: EACCES, unlink '/usr/local/bin/yo'
+1402 verbose exit [ 3, true ]

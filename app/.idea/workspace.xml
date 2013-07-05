@@ -9,7 +9,7 @@
     <file path="/index.html" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1373049550444" ignored="false" />
     <file path="/main.js" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1372621590319" ignored="false" />
     <file path="/search.js" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1373049126629" ignored="false" />
-    <file path="/main.html" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1372622180227" ignored="false" />
+    <file path="/main.html" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1373057047282" ignored="false" />
     <file path="/navigation.js" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1371040973585" ignored="false" />
     <file path="/category.js" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1371043528333" ignored="false" />
     <file path="/category.html" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1371041741254" ignored="false" />
@@ -19,6 +19,7 @@
     <file path="/channel.html" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1371175754759" ignored="false" />
     <file path="/images.scss" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1372075179726" ignored="false" />
     <file path="/ui-bootstrap.js" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1372707421121" ignored="false" />
+    <file path="/mainVideoItem.js" changelist="63aac40d-2db8-488b-a6f4-c8944fc7e86d" time="1373056881502" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="18" selection-start="1398" selection-end="1398" vertical-scroll-proportion="0.28856382">
+            <state line="38" column="23" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.4787234">
               <folding />
             </state>
           </provider>
@@ -58,7 +59,7 @@
       <file leaf-file-name="search.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/controllers/search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+            <state line="2" column="82" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,22 +75,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/views/category.html" />
-        <option value="$PROJECT_DIR$/scripts/controllers/category.js" />
-        <option value="$PROJECT_DIR$/views/video.html" />
         <option value="$PROJECT_DIR$/scripts/controllers/video.js" />
         <option value="$PROJECT_DIR$/scripts/controllers/channel.js" />
         <option value="$PROJECT_DIR$/views/channel.html" />
         <option value="$PROJECT_DIR$/styles/images.scss" />
         <option value="$PROJECT_DIR$/styles/main.scss" />
         <option value="$PROJECT_DIR$/scripts/controllers/main.js" />
-        <option value="$PROJECT_DIR$/views/main.html" />
         <option value="$PROJECT_DIR$/components/angular-bootstrap/ui-bootstrap.js" />
         <option value="$PROJECT_DIR$/template/typeahead/typeahead.html" />
         <option value="$PROJECT_DIR$/scripts/app.js" />
-        <option value="$PROJECT_DIR$/scripts/controllers/search.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scripts/services/search.js" />
+        <option value="$PROJECT_DIR$/template/main/preview.html" />
+        <option value="$PROJECT_DIR$/template/main/videoItem.html" />
+        <option value="$PROJECT_DIR$/views/main.html" />
+        <option value="$PROJECT_DIR$/scripts/directives/mainVideoItem.js" />
+        <option value="$PROJECT_DIR$/scripts/controllers/search.js" />
       </list>
     </option>
   </component>
@@ -126,7 +127,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -155,7 +155,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
+              <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -169,71 +169,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-bootstrap" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="PublishConfig">
@@ -323,6 +279,11 @@
         </serverdata>
       </server>
     </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/directives" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
@@ -420,16 +381,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/styles/compass_twitter_bootstrap/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="27" selection-start="392" selection-end="392" vertical-scroll-proportion="-4.592944" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/compass_twitter_bootstrap/_layouts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="353" selection-end="353" vertical-scroll-proportion="0.39077342" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/compass_twitter_bootstrap/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="13" selection-start="392" selection-end="405" vertical-scroll-proportion="-11.454545" />
@@ -462,23 +413,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template/typeahead/typeahead.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="5" selection-start="388" selection-end="388" vertical-scroll-proportion="0.16755319">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="95" selection-end="95" vertical-scroll-proportion="0.047872342">
-          <folding />
-        </state>
+        <state line="4" column="5" selection-start="388" selection-end="388" vertical-scroll-proportion="0.16755319" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.23106547">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.23106547" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/main.scss">
@@ -502,16 +442,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/directives/mainVideoItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="0.18485238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/main/videoItem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="4" selection-start="229" selection-end="229" vertical-scroll-proportion="0.11968085">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="10" selection-start="133" selection-end="133" vertical-scroll-proportion="0.07180851">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/controllers/search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+        <state line="2" column="82" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="18" selection-start="1398" selection-end="1398" vertical-scroll-proportion="0.28856382">
+        <state line="38" column="23" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.4787234">
           <folding />
         </state>
       </provider>

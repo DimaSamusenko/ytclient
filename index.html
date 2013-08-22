@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title></title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- build:css({.tmp,app}) styles/main.css -->
     <link rel="stylesheet" href="styles/css/main.css">
@@ -12,20 +12,23 @@
 </head>
 <body ng-cloak>
 
-<section class="layout">
-    <aside class="layout-aside">
+<section class="container">
+    <section class="row">
+        <aside class="col-lg-2 col-md-3">
         <div class="logo-wr">
             <a href="#" class="logo"></a>
         </div>
 
         <nav ng-controller="NavigationCtrl">
             <ul class="nav nav-pills nav-stacked nav-aside">
-                <li ng-repeat="item in navItems"><a href="#/category/{{item.id}}">{{item.snippet.title}}</a></li>
+                <li ng-repeat="item in navItems">
+                    <a href="#/category/{{item.id}}">{{item.snippet.title}}</a>
+                </li>
             </ul>
         </nav>
 
     </aside>
-    <article class="layout-content">
+        <article class="col-lg-10 col-md-9">
 
         <div class="row-fluid top-bar">
             <div class="span12">
@@ -40,8 +43,10 @@
         <section class="content" ng-view></section>
 
     </article>
+    </section>
 </section>
 
+<script src="bower_components/jquery/jquery.js"></script>
 <script src="bower_components/angular/angular.js"></script>
 
 <!-- build:js scripts/modules.js -->

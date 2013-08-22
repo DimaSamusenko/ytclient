@@ -16,34 +16,37 @@
 <section class="container">
     <section class="row">
         <aside class="col-lg-2 col-md-3">
-        <div class="logo-wr">
-            <a href="#" class="logo"></a>
-        </div>
+            <div class="logo-wr">
+                <a href="#" class="logo"></a>
+            </div>
 
-        <nav ng-controller="NavigationCtrl">
-            <ul class="nav nav-pills nav-stacked nav-aside">
-                <li ng-repeat="item in navItems">
-                    <a href="#/category/{{item.id}}">{{item.snippet.title}}</a>
-                </li>
-            </ul>
-        </nav>
+            <nav ng-controller="NavigationCtrl">
+                <ul class="nav nav-pills nav-stacked nav-aside">
+                    <li ng-repeat="item in navItems">
+                        <a href="#/category/{{item.id}}">{{item.snippet.title}}</a>
+                    </li>
+                </ul>
+            </nav>
 
-    </aside>
+        </aside>
         <article class="col-lg-10 col-md-9">
 
-        <div class="row-fluid top-bar">
-            <div class="span12">
-                <form class="form-search" ng-controller="SearchCtrl">
-
-                    <input type="text" class="input-xlarge search-query" placeholder="Search">
-
-                </form>
+            <div class="row top-bar">
+                <div class="col-lg-4 col-md-4">
+                    <form ng-controller="SearchCtrl">
+                        <div class="input-group">
+                            <input type="search" class="form-control">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-primary">Search</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
             </div>
-        </div>
 
-        <section class="content" ng-view></section>
+            <section class="content" ng-view></section>
 
-    </article>
+        </article>
     </section>
 </section>
 

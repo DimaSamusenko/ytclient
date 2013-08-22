@@ -18,8 +18,46 @@
 }
 
 .top-bar {
-    height: 50px;
-    line-height: 50px;
-    margin-bottom: 30px;
+    height        : 50px;
+    line-height   : 50px;
+    margin-bottom : 30px;
 }
 
+.thumbnail {
+    @borderSpace: 4px;
+    @height: 42px;
+    @bottomSpace: 15px;
+
+    position : relative;
+
+    .caption {
+        position                : absolute;
+        left                    : @borderSpace;
+        right                   : @borderSpace;
+        bottom                  : @bottomSpace;
+        -webkit-filter          : blur(3px);
+        filter                  : blur(3px);
+        height                  : @height;
+        display                 : block;
+        -webkit-background-size : cover;
+        background-size         : cover;
+        background-repeat       : no-repeat;
+        background-position     : 0 -webkit-calc(100% - 10px);
+        overflow                : hidden;
+    }
+
+    .caption-txt {
+        display          : block;
+        position         : absolute;
+        background-color : rgba(255, 255, 255, 0.2);
+        position         : absolute;
+        left             : @borderSpace;
+        right            : @borderSpace;
+        bottom           : @bottomSpace;
+        overflow         : hidden;
+        height           : @height;
+        color            : #fff;
+        font-size        : 11px;
+        padding          : 9px;
+    }
+}

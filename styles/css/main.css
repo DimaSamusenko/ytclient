@@ -28,3 +28,37 @@
   margin-bottom: 30px;
   line-height: 50px;
 }
+
+.thumbnail {
+  position: relative;
+}
+
+.thumbnail .caption {
+  position: absolute;
+  right: 4px;
+  bottom: 15px;
+  left: 4px;
+  display: block;
+  height: 42px;
+  overflow: hidden;
+  background-position: 0 -webkit-calc(90%);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+}
+
+.thumbnail .caption-txt {
+  position: absolute;
+  right: 4px;
+  bottom: 15px;
+  left: 4px;
+  display: block;
+  height: 42px;
+  padding: 9px;
+  overflow: hidden;
+  font-size: 11px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+}

@@ -1,5 +1,6 @@
-<a href="#/video/{{item.contentDetails.videoId}}">
+<a class="thumbnail" href="#/video/{{item.contentDetails.videoId}}">
     <img class="media-object" ng-src="{{item.snippet.thumbnails.high.url}}">
-    <span class="media-title">{{item.snippet.title}}</span>
-    <span class="media-info"></span>
+    <span style="background-image: url({{item.snippet.thumbnails.high.url}})"
+            class="caption"></span>
+    <span class="caption-txt">{{item.snippet.title}}</span>
 </a>

@@ -14,7 +14,8 @@ angular.module('ytclientApp').service('api', function api($resource, $http) {
         }),
 
         getSearchWithHttp = function (query) {
-            return $http.jsonp('https://www.googleapis.com/youtube/v3/search?key=' + key +
+            return $http.jsonp('https://www.googleapis.com/youtube/v3/search?key=' +
+                    key +
                     '&part=snippet&maxResults=20&type=video&callback=JSON_CALLBACK&q=' +
                     query).then(function (response) {
                     return response.data.items;
@@ -50,7 +51,8 @@ angular.module('ytclientApp').service('api', function api($resource, $http) {
                 type           : 'video',
                 videoCategoryId: parseInt(categoryId, 10),
                 publishedAfter : (function () {
-                    var now = new Date(), weekAgo = now.setDate(now.getDate() - 7);
+                    var now = new Date(), weekAgo = now.setDate(now.getDate() -
+                        7);
                     return new Date(weekAgo).toISOString();
                 }()),
                 videoDimension : '2d'

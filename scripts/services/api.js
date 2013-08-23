@@ -26,13 +26,19 @@ angular.module('ytclientApp').service('api', function api($resource, $http) {
             return ytApi.get(params, callback);
         },
 
-        getPopular = function (callback) {
+        getItemsInPlaylist = function (id, count, callback) {
             return ytApi.get({
                 action    : 'playlistItems',
-                maxResults: 50,
-                playlistId: 'LPtnHdj3df7iM',
+                maxResults: count,
+                playlistId: id,
                 part      : 'id,snippet,contentDetails'
             }, callback);
+        },
+
+        getPopular = function (callback) {
+            return getItemsInPlaylist('LPtnHdj3df7iM', 50, function (data) {
+                return callback(data);
+            });
         },
 
         getNav = function (callback) {
@@ -63,7 +69,7 @@ angular.module('ytclientApp').service('api', function api($resource, $http) {
         getChannelById = function (channelId, callback) {
             return ytApi.get({
                 action    : 'channels',
-                part      : 'id, snippet, contentDetails, statistics',
+                part      : 'id, snippet, contentDetails, statistics, brandingSettings',
                 id        : channelId,
                 maxResults: 1
             }, callback);
@@ -80,12 +86,13 @@ angular.module('ytclientApp').service('api', function api($resource, $http) {
 
     // Public API here
     return {
-        getSearch        : getSearch,
-        getPopular       : getPopular,
-        getNav           : getNav,
-        getItemsByCatId  : getItemsByCatId,
-        getChannelById   : getChannelById,
-        getItemById      : getItemById,
-        getSearchWithHttp: getSearchWithHttp
+        getSearch         : getSearch,
+        getPopular        : getPopular,
+        getNav            : getNav,
+        getItemsByCatId   : getItemsByCatId,
+        getChannelById    : getChannelById,
+        getItemById       : getItemById,
+        getSearchWithHttp : getSearchWithHttp,
+        getItemsInPlaylist: getItemsInPlaylist
     };
 });

@@ -3,61 +3,89 @@
 
 .logo-wr {
     height           : 50px;
-    line-height      : 50px;
-    text-align       : center;
-    background-color : #cbcbcb;
     margin-bottom    : 30px;
+
+    text-align       : center;
+
+    background-color : #cbcbcb;
+
+    line-height      : 50px;
 }
 
 .logo {
     display        : inline-block;
-    vertical-align : middle;
+
     width          : 104px;
     height         : 30px;
+
+    vertical-align : middle;
+
     background     : url(@logo) no-repeat;
 }
 
 .top-bar {
     height        : 50px;
-    line-height   : 50px;
     margin-bottom : 30px;
+
+    line-height   : 50px;
 }
 
 .thumbnail {
     @borderSpace: 4px;
     @height: 42px;
     @bottomSpace: 15px;
-
     position : relative;
 
     .caption {
-        position                : absolute;
-        left                    : @borderSpace;
-        right                   : @borderSpace;
-        bottom                  : @bottomSpace;
-        -webkit-filter          : blur(3px);
-        filter                  : blur(3px);
-        height                  : @height;
-        display                 : block;
-        -webkit-background-size : cover;
-        background-size         : cover;
-        background-repeat       : no-repeat;
-        background-position     : 0 -webkit-calc(100% - 10px);
-        overflow                : hidden;
+        position            : absolute;
+        right               : @borderSpace;
+        bottom              : @bottomSpace;
+        left                : @borderSpace;
+
+        display             : block;
+        overflow            : hidden;
+
+        height              : @height;
+
+        background-repeat   : no-repeat;
+        background-position : 0 -webkit-calc(100% - 10px);
+
+        .background-size(cover);
+
+        .filter(blur(3px));
     }
 
     .caption-txt {
-        display          : block;
         position         : absolute;
-        background-color : rgba(255, 255, 255, 0.2);
-        position         : absolute;
-        left             : @borderSpace;
         right            : @borderSpace;
         bottom           : @bottomSpace;
+        left             : @borderSpace;
+
+        display          : block;
         overflow         : hidden;
+
         height           : @height;
-        color            : #fff;
-        font-size        : 11px;
         padding          : 9px;
+
+        color            : #fff;
+        background-color : rgba(255, 255, 255, 0.2);
+
+        font-size        : 11px;
     }
+}
+
+.media-grid {
+    > div {
+        margin-bottom : 20px;
+    }
+}
+
+.channel-header {
+    position: relative;
+}
+
+.channel-header-logo {
+    position: absolute;
+    left: 20px;
+    top:10px;
 }

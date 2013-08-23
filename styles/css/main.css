@@ -62,3 +62,17 @@
   color: #fff;
   background-color: rgba(255, 255, 255, 0.2);
 }
+
+.media-grid > div {
+  margin-bottom: 20px;
+}
+
+.channel-header {
+  position: relative;
+}
+
+.channel-header-logo {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
